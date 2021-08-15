@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "928816243357",
+    "firebase_url": "https://tfgdam-840a7-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "tfgdam-840a7",
+    "storage_bucket": "tfgdam-840a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928816243357:android:98ecdc141d0bf0aeb86a74",
+        "android_client_info": {
+          "package_name": "com.example.tfgdam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928816243357-lvaosnvrh0fbj126d5eo6mfbln27dk9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVtAUOLHag9d1S0Odmmy_XL6mJj3fyL28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928816243357-lvaosnvrh0fbj126d5eo6mfbln27dk9f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

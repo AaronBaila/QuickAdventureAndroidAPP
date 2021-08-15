@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TFGdam</string>
+    <string name="google_map_key">AIzaSyDKij0tBaWyx8YWHjt8I14im90Za6LCh8M</string>
+    <string name="invalid_mail">Introduce mail valido.</string>
+    <string name="invalid_pass">Ingrese contraseña mayor a 6 digitos.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

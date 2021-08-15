@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/llFondoSplash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primario"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llFondoNegroSplash"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.1"
+            android:background="@color/black"
+            android:orientation="vertical"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llLogoSplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/llFondoSplash"
+        app:layout_constraintVertical_bias="0.19999999">
+
+        <ImageView
+            android:id="@+id/ivLogoSplash"
+            android:layout_width="480dp"
+            android:layout_height="480dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/icono2"
+            android:transitionName="logoImageTrans" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llItemsSplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/llLogoSplash"
+        app:layout_constraintStart_toStartOf="@+id/llLogoSplash"
+        app:layout_constraintTop_toBottomOf="@+id/llLogoSplash"
+        app:layout_constraintVertical_bias="0.79">
+
+        <TextView
+            android:id="@+id/tvDe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/allura"
+            android:text="De"
+            android:textColor="@color/black"
+            android:textSize="95sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvAaronBaila"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tvAaronBaila"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/allura"
+            android:text="Aarón Baila"
+            android:textColor="@color/black"
+            android:textSize="100sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
