@@ -28,7 +28,7 @@
             cardView:layout_constraintBottom_toBottomOf="parent"
             cardView:layout_constraintRight_toRightOf="parent"
             cardView:layout_constraintTop_toTopOf="parent"
-            cardView:srcCompat="@drawable/icono2" />
+            cardView:srcCompat="@drawable/iconprincipal" />
 
         <LinearLayout
             android:layout_width="match_parent"

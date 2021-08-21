@@ -26,6 +26,7 @@
         android:id="@+id/llLogoSplash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -39,7 +40,7 @@
             android:layout_height="280dp"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
-            android:src="@drawable/icono2"
+            android:src="@drawable/iconprincipal"
             android:transitionName="logoImageTrans" />
     </LinearLayout>
 
@@ -57,34 +58,6 @@
         app:layout_constraintStart_toStartOf="@+id/llLogoSplash"
         app:layout_constraintTop_toBottomOf="@+id/llLogoSplash"
         app:layout_constraintVertical_bias="0.79">
-
-        <TextView
-            android:id="@+id/tvDe"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="15dp"
-            android:fontFamily="@font/allura"
-            android:text="De"
-            android:textColor="@color/black"
-            android:textSize="60sp"
-            app:layout_constraintBottom_toTopOf="@+id/tvAaronBaila"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
-
-        <TextView
-            android:id="@+id/tvAaronBaila"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="30dp"
-            android:fontFamily="@font/allura"
-            android:text="Aarón Baila"
-            android:textColor="@color/black"
-            android:textSize="65sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

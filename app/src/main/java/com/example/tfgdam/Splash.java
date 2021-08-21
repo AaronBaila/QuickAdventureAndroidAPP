@@ -29,12 +29,8 @@ public class Splash extends AppCompatActivity {
         Animation animacion1 = AnimationUtils.loadAnimation(this, R.anim.desplazamiento_arriba);
         Animation animacion2 = AnimationUtils.loadAnimation(this, R.anim.desplazamiento_abajo);
 
-        TextView tvAaronBaila = findViewById(R.id.tvAaronBaila);
-        TextView tvDe = findViewById(R.id.tvDe);
         ImageView icono = findViewById(R.id.ivLogoSplash);
 
-        tvAaronBaila.setAnimation(animacion2);
-        tvDe.setAnimation(animacion2);
         icono.setAnimation(animacion1);
 
         new Handler().postDelayed(new Runnable() {
