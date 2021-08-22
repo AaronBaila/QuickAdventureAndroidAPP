@@ -21,7 +21,7 @@ public class Login extends AppCompatActivity {
 
     //Creamos variables para posteriormente refenciar los id's o instanciar los objetos
 
-    Button btRegistrate, btAcceder;
+    Button btRegistro, btAcceder;
     EditText emailLogin, passLogin;
 
     FirebaseAuth firebaseAuth;
@@ -38,7 +38,7 @@ public class Login extends AppCompatActivity {
 
         emailLogin = findViewById(R.id.etEmail);
         passLogin = findViewById(R.id.etPass);
-        btRegistrate = findViewById(R.id.btRegistro);
+        btRegistro = findViewById(R.id.btRegistro);
         btAcceder = findViewById(R.id.btLogin);
 
         //Instanciamos objetos
@@ -49,7 +49,7 @@ public class Login extends AppCompatActivity {
         barraCarga = new ProgressDialog(Login.this);
 
         //Botón para acceder activity registro
-        btRegistrate.setOnClickListener(new View.OnClickListener() {
+        btRegistro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Login.this, Registro.class);

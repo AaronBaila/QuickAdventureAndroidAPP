@@ -38,7 +38,7 @@ public class RecuperarPass extends AppCompatActivity {
         btLogin = findViewById(R.id.btLogin);
 
         awesomeValidation = new AwesomeValidation(ValidationStyle.BASIC);
-        awesomeValidation.addValidation(this, R.id.etNombreRegistro, Patterns.EMAIL_ADDRESS, R.string.invalid_mail);
+        //awesomeValidation.addValidation(this, R.id.etNombreRegistro, Patterns.EMAIL_ADDRESS, R.string.invalid_mail);
 
         btRecuperar.setOnClickListener(new View.OnClickListener() {
             @Override

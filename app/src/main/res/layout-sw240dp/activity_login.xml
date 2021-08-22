@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:id="@+id/llFondoImagen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo_fade"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llFondoNegro"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.3"
+            android:background="@color/black"
+            android:orientation="vertical"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llLogoLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ivLogoLogin"
+            android:layout_width="550dp"
+            android:layout_height="550dp"
+            android:layout_gravity="center"
+            android:alpha="0.9"
+            android:src="@drawable/iconprincipal"
+            android:transitionName="logoImageTrans" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="65dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/llLogoLogin"
+        app:layout_constraintVertical_bias="0.68">
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="850dp"
+            android:layout_height="130dp"
+            android:layout_marginBottom="35dp"
+            android:layout_gravity="center"
+            android:background="@drawable/input"
+            android:hint="Correo Electrónico"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="50dp"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/etPass"
+            android:layout_width="850dp"
+            android:layout_height="130dp"
+            android:layout_marginBottom="55dp"
+            android:background="@drawable/input"
+            android:ems="10"
+            android:textSize="55dp"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="#000000" />
+
+        <Button
+            android:id="@+id/btLogin"
+            android:layout_width="800dp"
+            android:layout_height="130dp"
+            android:layout_marginBottom="35dp"
+            android:background="@drawable/btn_redondeado_amarillo"
+            android:layout_gravity="center"
+            android:elevation="5dp"
+            android:textSize="50dp"
+            android:text="Iniciar Sesión" />
+
+        <Button
+            android:id="@+id/btRegistro"
+            android:layout_width="800dp"
+            android:layout_height="130dp"
+            android:layout_marginBottom="55dp"
+            android:background="@drawable/btn_redondeado_amarillo"
+            android:elevation="5dp"
+            android:layout_gravity="center"
+            android:text="Registrate"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/tvOlvidarPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="¿Olvidaste la contraseña?"
+            android:textColor="@color/white"
+            android:textSize="45dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

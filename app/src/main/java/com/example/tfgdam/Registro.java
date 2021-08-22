@@ -30,7 +30,7 @@ public class Registro extends AppCompatActivity {
 
     //Creamos variables para posteriormente refenciar los id's o instanciar los objetos
 
-    EditText etRegistroEmail, etNombreRegistro, etRegistroPass2, etRegistroPass;
+    EditText etEmail, etNickName, etPass, etPass2;
     TextView tvErrorPass, tvAlreadyCuenta;
     Button btRegistro;
     String nPlanes = "0";
@@ -48,10 +48,10 @@ public class Registro extends AppCompatActivity {
 
         //Referenciamos id's
 
-        etRegistroEmail = findViewById(R.id.etRegistroEmail);
-        etRegistroPass = findViewById(R.id.etRegistroPass);
-        etNombreRegistro = findViewById(R.id.etNombreRegistro);
-        etRegistroPass2 = findViewById(R.id.etRegistroPass2);
+        etEmail = findViewById(R.id.etEmail);
+        etNickName = findViewById(R.id.etNickName);
+        etPass = findViewById(R.id.etPass);
+        etPass = findViewById(R.id.etPass2);
         tvErrorPass = findViewById(R.id.tvErrorPass);
         tvAlreadyCuenta = findViewById(R.id.tvAlreadyCuenta);
         btRegistro = findViewById(R.id.btRegistro);
@@ -88,10 +88,10 @@ public class Registro extends AppCompatActivity {
                 barraCarga.show();
 
                 //Obtenemos los datos de los campos correspondientes
-                String mail = etRegistroEmail.getText().toString();
-                String nombre = etNombreRegistro.getText().toString();
-                String pass = etRegistroPass.getText().toString();
-                String pass2 = etRegistroPass2.getText().toString();
+                String mail = etEmail.getText().toString();
+                String nombre = etNickName.getText().toString();
+                String pass = etPass.getText().toString();
+                String pass2 = etPass2.getText().toString();
 
                 //Comprobamos que la contraseña se ha escrito correctamente
                 if(pass.equalsIgnoreCase(pass2)){
@@ -108,7 +108,7 @@ public class Registro extends AppCompatActivity {
                 }else{
                     //Si las contraseñas no coinciden (No esta bien escrita)
                     barraCarga.dismiss();
-                    tvErrorPass.setText("ERROR. Contraseñas No Coinciden.");
+                    tvErrorPass.setText("Error. Contraseñas deben coincidir !");
                 }
             }
         });
@@ -117,8 +117,8 @@ public class Registro extends AppCompatActivity {
     //Metodo para validar los campos de correo y contraseña
     public void validarCampos(){
         awesomeValidation = new AwesomeValidation(ValidationStyle.BASIC);
-        awesomeValidation.addValidation(this, R.id.etRegistroEmail, Patterns.EMAIL_ADDRESS, R.string.invalid_mail);
-        awesomeValidation.addValidation(this, R.id.etRegistroPass, ".{6,}", R.string.invalid_pass);
+        awesomeValidation.addValidation(this, R.id.etEmail, Patterns.EMAIL_ADDRESS, R.string.invalid_mail);
+        awesomeValidation.addValidation(this, R.id.etPass, ".{6,}", R.string.invalid_pass);
     }
 
     //Metodo para crear usuario y almacenarlo en BD
