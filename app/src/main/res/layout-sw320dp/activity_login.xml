@@ -29,7 +29,7 @@
         android:id="@+id/llLogoLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="@dimen/margenTop"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,27 +49,24 @@
         android:id="@+id/llItems"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
+        android:layout_margin="@dimen/margenLayout"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/llLogoLogin"
-        app:layout_constraintVertical_bias="0.68">
+        app:layout_constraintVertical_bias="0.65">
 
         <EditText
             android:id="@+id/etEmail"
             android:layout_width="@dimen/anchoInput"
             android:layout_height="@dimen/altoInput"
-            android:layout_marginBottom="27dp"
+            android:layout_marginBottom="@dimen/margenBottomInput"
             android:background="@drawable/input"
             android:hint="Correo Electrónico"
-            android:paddingLeft="15dp"
             android:inputType="textEmailAddress"
+            android:paddingLeft="@dimen/paddingLeftInput"
             android:textColorHint="#000000"
             android:textSize="@dimen/textInput" />
 
@@ -77,11 +74,11 @@
             android:id="@+id/etPass"
             android:layout_width="@dimen/anchoInput"
             android:layout_height="@dimen/altoInput"
-            android:layout_marginBottom="40dp"
+            android:layout_marginBottom="@dimen/margenBottom"
             android:background="@drawable/input"
-            android:paddingLeft="15dp"
             android:hint="Contraseña"
             android:inputType="textPassword"
+            android:paddingLeft="@dimen/paddingLeftInput"
             android:textColorHint="#000000"
             android:textSize="@dimen/textInput" />
 
@@ -89,7 +86,7 @@
             android:id="@+id/btLogin"
             android:layout_width="@dimen/anchoBoton"
             android:layout_height="@dimen/altoBoton"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="@dimen/margenBottomBoton"
             android:background="@drawable/btn_redondeado_amarillo"
             android:elevation="@dimen/elevationBoton"
             android:text="Iniciar Sesión"
@@ -99,17 +96,17 @@
             android:id="@+id/btRegistro"
             android:layout_width="@dimen/anchoBoton"
             android:layout_height="@dimen/altoBoton"
+            android:layout_marginBottom="@dimen/margenBottom"
             android:background="@drawable/btn_redondeado_amarillo"
             android:elevation="@dimen/elevationBoton"
             android:text="Registrate"
-            android:textSize="@dimen/textBoton"
-            android:layout_marginBottom="40dp"/>
+            android:textSize="@dimen/textBoton" />
 
         <TextView
             android:id="@+id/tvOlvidarPass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginRight="5dp"
+            android:layout_marginRight="@dimen/margenRight"
             android:gravity="end"
             android:text="¿Olvidaste la contraseña?"
             android:textColor="@color/white"

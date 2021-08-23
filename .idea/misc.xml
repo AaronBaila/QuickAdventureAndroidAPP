@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/drawable-sw240dp/input.xml" value="0.3828125" />
         <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/drawable-sw480dp/input.xml" value="0.3828125" />
         <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/drawable-sw640dp/dimens.xml" value="0.287109375" />
         <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/drawable-sw640dp/input.xml" value="0.287109375" />
@@ -12,9 +13,9 @@
         <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/drawable/input.xml" value="0.3828125" />
         <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-normal/splash.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw240dp-land/activity_login.xml" value="0.31040564373897706" />
-        <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw240dp/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw240dp/activity_login.xml" value="0.33" />
         <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw320dp-land/activity_login.xml" value="0.31040564373897706" />
-        <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw320dp/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw320dp/activity_login.xml" value="0.23157894736842105" />
         <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw480dp-land/activity_login.xml" value="0.23560910307898258" />
         <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw480dp/activity_login.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw640dp-land/activity_login.xml" value="0.23560910307898258" />

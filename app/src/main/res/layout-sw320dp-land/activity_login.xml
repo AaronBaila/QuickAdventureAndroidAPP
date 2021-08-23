@@ -28,7 +28,7 @@
         android:id="@+id/llLogoLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -102,14 +102,14 @@
             android:background="@drawable/btn_redondeado_amarillo"
             android:elevation="@dimen/elevationBoton"
             android:text="Registrate"
-            android:layout_marginBottom="13dp"
+            android:layout_marginBottom="20dp"
             android:textSize="@dimen/textBoton" />
 
         <TextView
             android:id="@+id/tvOlvidarPass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginRight="25dp"
+            android:layout_marginRight="15dp"
             android:gravity="end"
             android:text="¿Olvidaste la contraseña?"
             android:textColor="@color/white"

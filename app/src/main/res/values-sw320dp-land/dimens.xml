@@ -4,7 +4,7 @@
     <!-- Dimensiones Inputs -->
 
     <dimen name="textInput">20sp</dimen>
-    <dimen name="anchoInput">750dp</dimen>
+    <dimen name="anchoInput">680dp</dimen>
     <dimen name="altoInput">40dp</dimen>
 
     <!-- Dimensiones Botones -->

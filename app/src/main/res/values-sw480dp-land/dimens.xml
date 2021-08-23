@@ -4,13 +4,13 @@
     <!-- Dimensiones Inputs -->
 
     <dimen name="textInput">25sp</dimen>
-    <dimen name="anchoInput">830dp</dimen>
+    <dimen name="anchoInput">850dp</dimen>
     <dimen name="altoInput">55dp</dimen>
 
     <!-- Dimensiones Botones -->
 
     <dimen name="textBoton">23sp</dimen>
-    <dimen name="anchoBoton">620dp</dimen>
+    <dimen name="anchoBoton">650dp</dimen>
     <dimen name="altoBoton">55dp</dimen>
     <dimen name="elevationBoton">20dp</dimen>
 

@@ -9,9 +9,9 @@
 
     <!-- Dimensiones Botones -->
 
-    <dimen name="textBoton">45sp</dimen>
+    <dimen name="textBoton">40sp</dimen>
     <dimen name="anchoBoton">700dp</dimen>
-    <dimen name="altoBoton">130dp</dimen>
+    <dimen name="altoBoton">100dp</dimen>
     <dimen name="elevationBoton">20dp</dimen>
 
     <!-- Dimensiones Botones De Texto-->
