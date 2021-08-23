@@ -33,7 +33,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.1">
+        app:layout_constraintVertical_bias="0.16">
 
         <ImageView
             android:id="@+id/ivLogoLogin"
@@ -59,13 +59,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.95">
+        app:layout_constraintVertical_bias="0.96">
 
         <EditText
             android:id="@+id/etEmail"
             android:layout_width="@dimen/anchoInput"
             android:layout_height="@dimen/altoInput"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="20dp"
             android:background="@drawable/input"
             android:hint="Correo Electrónico"
             android:inputType="textEmailAddress"
@@ -99,7 +99,7 @@
             android:id="@+id/btRegistro"
             android:layout_width="@dimen/anchoBoton"
             android:layout_height="@dimen/altoBoton"
-            android:layout_marginBottom="50dp"
+            android:layout_marginBottom="30dp"
             android:background="@drawable/btn_redondeado_amarillo"
             android:elevation="@dimen/elevationBoton"
             android:text="Registrate"
@@ -109,7 +109,6 @@
             android:id="@+id/tvOlvidarPass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
             android:paddingRight="20dp"
             android:gravity="end"
             android:text="¿Olvidaste la contraseña?"

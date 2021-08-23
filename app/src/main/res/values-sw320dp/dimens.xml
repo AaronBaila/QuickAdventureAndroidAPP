@@ -3,24 +3,24 @@
 
     <!-- Dimensiones LayoutTextosBotones -->
 
-    <dimen name="textInput">10sp</dimen>
+    <dimen name="textInput">13sp</dimen>
     <dimen name="anchoInput">300dp</dimen>
-    <dimen name="altoInput">50dp</dimen>
+    <dimen name="altoInput">45dp</dimen>
 
     <!-- Dimensiones Botones -->
 
-    <dimen name="textBoton">9sp</dimen>
-    <dimen name="anchoBoton">250dp</dimen>
+    <dimen name="textBoton">11sp</dimen>
+    <dimen name="anchoBoton">300dp</dimen>
     <dimen name="altoBoton">40dp</dimen>
-    <dimen name="elevationBoton">40dp</dimen>
+    <dimen name="elevationBoton">45dp</dimen>
 
     <!-- Dimensiones Botones De Texto-->
 
-    <dimen name="textSize">10sp</dimen>
+    <dimen name="textSize">13sp</dimen>
 
     <!-- Dimensiones Icono -->
 
-    <dimen name="anchoIconPrincipal">120dp</dimen>
-    <dimen name="altoIconPrincipal">120dp</dimen>
+    <dimen name="anchoIconPrincipal">140dp</dimen>
+    <dimen name="altoIconPrincipal">140dp</dimen>
 
 </resources>
