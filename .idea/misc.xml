@@ -5,21 +5,33 @@
       <map>
         <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/drawable-sw240dp/input.xml" value="0.3828125" />
         <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/drawable-sw480dp/input.xml" value="0.3828125" />
+        <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/drawable-sw600dp/input.xml" value="0.57421875" />
         <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/drawable-sw640dp/dimens.xml" value="0.287109375" />
         <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/drawable-sw640dp/input.xml" value="0.287109375" />
+        <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/drawable-sw720dp/input.xml" value="0.287109375" />
         <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
         <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.3828125" />
         <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/drawable/iconprincipal.xml" value="0.3828125" />
         <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/drawable/input.xml" value="0.3828125" />
         <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-normal/splash.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw120dp/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw160dp-land/activity_login.xml" value="1.424342105263158" />
+        <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw160dp/activity_login.xml" value="1.0" />
+        <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw200dp/activity_login.xml" value="1.320063694267516" />
         <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw240dp-land/activity_login.xml" value="0.31040564373897706" />
-        <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw240dp/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw240dp/activity_login.xml" value="0.22028688524590165" />
+        <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw280dp/activity_login.xml" value="1.5700757575757576" />
         <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw320dp-land/activity_login.xml" value="0.31040564373897706" />
-        <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw320dp/activity_login.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw320dp/activity_login.xml" value="1.25" />
         <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw480dp-land/activity_login.xml" value="0.23560910307898258" />
-        <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw480dp/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw480dp/activity_login.xml" value="0.5" />
+        <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw600dp-land/activity_login.xml" value="0.23560910307898258" />
+        <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw600dp/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw640dp-land/activity_login.xml" value="0.23560910307898258" />
-        <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw640dp/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw640dp/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw720dp-land/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw720dp-land/activity_main.xml" value="0.23560910307898258" />
+        <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout-sw720dp/activity_login.xml" value="0.33" />
         <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout/activity_inicio.xml" value="0.21784420289855072" />
         <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout/activity_login.xml" value="0.3319746376811594" />
         <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout/activity_mapa.xml" value="0.28125" />

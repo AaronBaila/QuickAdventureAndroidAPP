@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/cL"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -29,11 +28,12 @@
         android:id="@+id/llLogoLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margenTop"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1">
 
         <ImageView
             android:id="@+id/ivLogoLogin"
@@ -49,24 +49,27 @@
         android:id="@+id/llItems"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margenLayout"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/llLogoLogin"
-        app:layout_constraintVertical_bias="0.65">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95">
 
         <EditText
             android:id="@+id/etEmail"
             android:layout_width="@dimen/anchoInput"
             android:layout_height="@dimen/altoInput"
-            android:layout_marginBottom="@dimen/margenBottomInput"
+            android:layout_marginBottom="10dp"
             android:background="@drawable/input"
             android:hint="Correo Electrónico"
             android:inputType="textEmailAddress"
-            android:paddingLeft="@dimen/paddingLeftInput"
+            android:paddingLeft="15dp"
             android:textColorHint="#000000"
             android:textSize="@dimen/textInput" />
 
@@ -74,11 +77,11 @@
             android:id="@+id/etPass"
             android:layout_width="@dimen/anchoInput"
             android:layout_height="@dimen/altoInput"
-            android:layout_marginBottom="@dimen/margenBottom"
+            android:layout_marginBottom="40dp"
             android:background="@drawable/input"
             android:hint="Contraseña"
             android:inputType="textPassword"
-            android:paddingLeft="@dimen/paddingLeftInput"
+            android:paddingLeft="15dp"
             android:textColorHint="#000000"
             android:textSize="@dimen/textInput" />
 
@@ -86,7 +89,7 @@
             android:id="@+id/btLogin"
             android:layout_width="@dimen/anchoBoton"
             android:layout_height="@dimen/altoBoton"
-            android:layout_marginBottom="@dimen/margenBottomBoton"
+            android:layout_marginBottom="10dp"
             android:background="@drawable/btn_redondeado_amarillo"
             android:elevation="@dimen/elevationBoton"
             android:text="Iniciar Sesión"
@@ -96,7 +99,7 @@
             android:id="@+id/btRegistro"
             android:layout_width="@dimen/anchoBoton"
             android:layout_height="@dimen/altoBoton"
-            android:layout_marginBottom="@dimen/margenBottom"
+            android:layout_marginBottom="50dp"
             android:background="@drawable/btn_redondeado_amarillo"
             android:elevation="@dimen/elevationBoton"
             android:text="Registrate"
@@ -106,7 +109,8 @@
             android:id="@+id/tvOlvidarPass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginRight="@dimen/margenRight"
+            android:layout_marginBottom="5dp"
+            android:paddingRight="20dp"
             android:gravity="end"
             android:text="¿Olvidaste la contraseña?"
             android:textColor="@color/white"

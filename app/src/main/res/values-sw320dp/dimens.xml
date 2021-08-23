@@ -3,31 +3,24 @@
 
     <!-- Dimensiones LayoutTextosBotones -->
 
-    <dimen name="margenLayout">20dp</dimen>
-    <dimen name="margenBottomInput">10dp</dimen>
-    <dimen name="margenBottom">40dp</dimen>
-    <dimen name="paddingLeftInput">15dp</dimen>
     <dimen name="textInput">10sp</dimen>
-    <dimen name="anchoInput">320dp</dimen>
+    <dimen name="anchoInput">300dp</dimen>
     <dimen name="altoInput">50dp</dimen>
 
     <!-- Dimensiones Botones -->
 
-    <dimen name="textBoton">10sp</dimen>
-    <dimen name="margenBottomBoton">10dp</dimen>
-    <dimen name="anchoBoton">280dp</dimen>
+    <dimen name="textBoton">9sp</dimen>
+    <dimen name="anchoBoton">250dp</dimen>
     <dimen name="altoBoton">40dp</dimen>
     <dimen name="elevationBoton">40dp</dimen>
 
     <!-- Dimensiones Botones De Texto-->
 
-    <dimen name="margenRight">10dp</dimen>
     <dimen name="textSize">10sp</dimen>
 
     <!-- Dimensiones Icono -->
 
-    <dimen name="margenTop">60dp</dimen>
-    <dimen name="anchoIconPrincipal">230dp</dimen>
-    <dimen name="altoIconPrincipal">230dp</dimen>
+    <dimen name="anchoIconPrincipal">120dp</dimen>
+    <dimen name="altoIconPrincipal">120dp</dimen>
 
 </resources>
