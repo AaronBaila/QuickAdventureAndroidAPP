@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dimensiones Inputs -->
+
+    <dimen name="textInput">20sp</dimen>
+    <dimen name="anchoInput">750dp</dimen>
+    <dimen name="altoInput">40dp</dimen>
+
+    <!-- Dimensiones Botones -->
+
+    <dimen name="textBoton">16sp</dimen>
+    <dimen name="anchoBoton">620dp</dimen>
+    <dimen name="altoBoton">40dp</dimen>
+    <dimen name="elevationBoton">20dp</dimen>
+
+    <!-- Dimensiones Botones De Texto-->
+
+    <dimen name="textSize">17sp</dimen>
+
+    <!-- Dimensiones Generales -->
+
+    <dimen name="anchoIconPrincipal">110dp</dimen>
+    <dimen name="altoIconPrincipal">110dp</dimen>
+
+</resources>

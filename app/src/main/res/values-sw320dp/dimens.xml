@@ -3,20 +3,20 @@
 
     <!-- Dimensiones Inputs -->
 
-    <dimen name="textInput">25sp</dimen>
-    <dimen name="anchoInput">550dp</dimen>
-    <dimen name="altoInput">60dp</dimen>
+    <dimen name="textInput">20sp</dimen>
+    <dimen name="anchoInput">350dp</dimen>
+    <dimen name="altoInput">55dp</dimen>
 
     <!-- Dimensiones Botones -->
 
-    <dimen name="textBoton">23sp</dimen>
-    <dimen name="anchoBoton">450dp</dimen>
+    <dimen name="textBoton">16sp</dimen>
+    <dimen name="anchoBoton">320dp</dimen>
     <dimen name="altoBoton">50dp</dimen>
     <dimen name="elevationBoton">40dp</dimen>
 
     <!-- Dimensiones Botones De Texto-->
 
-    <dimen name="textSize">23sp</dimen>
+    <dimen name="textSize">20sp</dimen>
 
     <!-- Dimensiones Generales -->
 
