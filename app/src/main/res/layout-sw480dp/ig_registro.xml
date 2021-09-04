@@ -6,7 +6,8 @@
     android:id="@+id/cL"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Registro">
+    tools:context=".Login"
+    tools:ignore="MissingDefaultResource">
 
     <LinearLayout
         android:id="@+id/llFondoImagen"
@@ -28,7 +29,7 @@
         android:id="@+id/llLogoLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="65dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,8 +37,8 @@
 
         <ImageView
             android:id="@+id/ivLogoLogin"
-            android:layout_width="250dp"
-            android:layout_height="250dp"
+            android:layout_width="@dimen/anchoIconPrincipal"
+            android:layout_height="@dimen/altoIconPrincipal"
             android:layout_gravity="center"
             android:alpha="0.9"
             android:src="@drawable/iconprincipal"
@@ -48,7 +49,10 @@
         android:id="@+id/llItems"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -58,94 +62,70 @@
 
         <EditText
             android:id="@+id/etNickName"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="@dimen/anchoInput"
+            android:layout_height="@dimen/altoInput"
             android:layout_marginBottom="20dp"
             android:background="@drawable/input"
             android:hint="Nombre"
-            android:inputType="text"
             android:paddingLeft="20dp"
-            android:paddingTop="10dp"
-            android:paddingRight="10dp"
-            android:paddingBottom="10dp"
-            android:textColor="@color/black"
-            android:textColorHint="#000000" />
+            android:inputType="textEmailAddress"
+            android:textColorHint="#000000"
+            android:textSize="@dimen/textInput" />
 
         <EditText
             android:id="@+id/etEmail"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
+            android:layout_width="@dimen/anchoInput"
+            android:layout_height="@dimen/altoInput"
+            android:layout_marginBottom="15dp"
             android:background="@drawable/input"
             android:hint="Correo Electrónico"
+            android:paddingLeft="15dp"
             android:inputType="textEmailAddress"
-            android:paddingLeft="20dp"
-            android:paddingTop="10dp"
-            android:paddingRight="10dp"
-            android:paddingBottom="10dp"
-            android:textColor="@color/black"
-            android:textColorHint="#000000" />
+            android:textColorHint="#000000"
+            android:textSize="@dimen/textInput" />
 
         <EditText
             android:id="@+id/etPass"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
+            android:layout_width="@dimen/anchoInput"
+            android:layout_height="@dimen/altoInput"
+            android:layout_marginBottom="50dp"
             android:background="@drawable/input"
-            android:ems="10"
+            android:paddingLeft="15dp"
             android:hint="Contraseña"
             android:inputType="textPassword"
-            android:paddingLeft="10dp"
-            android:paddingTop="10dp"
-            android:paddingRight="10dp"
-            android:paddingBottom="10dp"
-            android:textColor="@color/black"
-            android:textColorHint="#000000" />
+            android:textColorHint="#000000"
+            android:textSize="@dimen/textInput" />
 
-        <EditText
-            android:id="@+id/etPass2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="35dp"
-            android:background="@drawable/input"
-            android:ems="10"
-            android:hint="Contraseña"
-            android:inputType="textPassword"
-            android:paddingLeft="10dp"
-            android:paddingTop="10dp"
-            android:paddingRight="10dp"
-            android:paddingBottom="10dp"
-            android:textColor="@color/black"
-            android:textColorHint="#000000" />
+        <Button
+            android:id="@+id/btLogin"
+            android:layout_width="@dimen/anchoBoton"
+            android:layout_height="@dimen/altoBoton"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/btn_redondeado_amarillo"
+            android:elevation="@dimen/elevationBoton"
+            android:text="Iniciar Sesión"
+            android:textSize="@dimen/textBoton" />
 
         <Button
             android:id="@+id/btRegistro"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/anchoBoton"
+            android:layout_height="@dimen/altoBoton"
             android:background="@drawable/btn_redondeado_amarillo"
+            android:elevation="@dimen/elevationBoton"
+            android:text="Registrate"
+            android:textSize="@dimen/textBoton"
+            android:layout_marginBottom="50dp"/>
+
+        <TextView
+            android:id="@+id/tvOlvidarPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
             android:layout_marginBottom="20dp"
-            android:elevation="5dp"
-            android:text="Registrarse"
-            android:textSize="16dp" />
-
-        <TextView
-            android:id="@+id/tvErrorPass"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_marginBottom="15dp"
-            android:text=" "
-            android:textColor="@color/red"
-            android:textSize="15dp" />
-
-        <TextView
-            android:id="@+id/tvAlreadyCuenta"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:gravity="end"
-            android:text="¿Ya tienes cuenta? Inicia Sesion!"
+            android:text="¿Olvidaste la contraseña?"
             android:textColor="@color/white"
-            android:textSize="20dp" />
+            android:textSize="@dimen/textSize" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

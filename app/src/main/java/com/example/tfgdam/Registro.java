@@ -30,8 +30,8 @@ public class Registro extends AppCompatActivity {
 
     //Creamos variables para posteriormente refenciar los id's o instanciar los objetos
 
-    EditText etEmail, etNickName, etPass, etPass2;
-    TextView tvErrorPass, tvAlreadyCuenta;
+    EditText etEmail, etNombre, etPass, etPass2;
+    TextView tvErrorPass, tvCuentaActiva;
     Button btRegistro;
     String nPlanes = "0";
 
@@ -49,11 +49,11 @@ public class Registro extends AppCompatActivity {
         //Referenciamos id's
 
         etEmail = findViewById(R.id.etEmail);
-        etNickName = findViewById(R.id.etNickName);
+        etNombre = findViewById(R.id.etNombre);
         etPass = findViewById(R.id.etPass);
-        etPass = findViewById(R.id.etPass2);
+        etPass2 = findViewById(R.id.etPass2);
         tvErrorPass = findViewById(R.id.tvErrorPass);
-        tvAlreadyCuenta = findViewById(R.id.tvAlreadyCuenta);
+        tvCuentaActiva = findViewById(R.id.tvCuentaActiva);
         btRegistro = findViewById(R.id.btRegistro);
 
         //Instanciamos objetos
@@ -69,7 +69,7 @@ public class Registro extends AppCompatActivity {
         validarCampos();
 
         //Botón para volver a login
-        tvAlreadyCuenta.setOnClickListener(new View.OnClickListener() {
+        tvCuentaActiva.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Registro.this, Login.class);
@@ -89,7 +89,7 @@ public class Registro extends AppCompatActivity {
 
                 //Obtenemos los datos de los campos correspondientes
                 String mail = etEmail.getText().toString();
-                String nombre = etNickName.getText().toString();
+                String nombre = etNombre.getText().toString();
                 String pass = etPass.getText().toString();
                 String pass2 = etPass2.getText().toString();
 

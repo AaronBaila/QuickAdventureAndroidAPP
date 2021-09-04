@@ -59,61 +59,86 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.37">
+        app:layout_constraintVertical_bias="0.46">
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="@dimen/anchoInputRegistro"
+            android:layout_height="@dimen/altoInputRegistro"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/input"
+            android:hint="Apodo"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColorHint="#000000"
+            android:textSize="@dimen/textInputRegistro" />
+
 
         <EditText
             android:id="@+id/etEmail"
-            android:layout_width="@dimen/anchoInput"
-            android:layout_height="@dimen/altoInput"
+            android:layout_width="@dimen/anchoInputRegistro"
+            android:layout_height="@dimen/altoInputRegistro"
             android:layout_marginBottom="20dp"
             android:background="@drawable/input"
             android:hint="Correo Electrónico"
             android:inputType="textEmailAddress"
             android:paddingLeft="15dp"
             android:textColorHint="#000000"
-            android:textSize="@dimen/textInput" />
+            android:textSize="@dimen/textInputRegistro" />
 
         <EditText
             android:id="@+id/etPass"
-            android:layout_width="@dimen/anchoInput"
-            android:layout_height="@dimen/altoInput"
-            android:layout_marginBottom="50dp"
+            android:layout_width="@dimen/anchoInputRegistro"
+            android:layout_height="@dimen/altoInputRegistro"
+            android:layout_marginBottom="20dp"
             android:background="@drawable/input"
             android:hint="Contraseña"
             android:inputType="textPassword"
             android:paddingLeft="15dp"
             android:textColorHint="#000000"
-            android:textSize="@dimen/textInput" />
+            android:textSize="@dimen/textInputRegistro" />
 
-        <Button
-            android:id="@+id/btLogin"
-            android:layout_width="@dimen/anchoBoton"
-            android:layout_height="@dimen/altoBoton"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/btn_redondeado_amarillo"
-            android:elevation="@dimen/elevationBoton"
-            android:text="Iniciar Sesión"
-            android:textSize="@dimen/textBoton" />
+        <EditText
+            android:id="@+id/etPass2"
+            android:layout_width="@dimen/anchoInputRegistro"
+            android:layout_height="@dimen/altoInputRegistro"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/input"
+            android:hint="Repita Contraseña"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            android:textColorHint="#000000"
+            android:textSize="@dimen/textInputRegistro" />
+
+        <TextView
+            android:id="@+id/tvErrorPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="Error, Contraseñas No Coinciden. Vuelva a intentarlo"
+            android:textColor="@color/red"
+            android:textSize="@dimen/textSize" />
 
         <Button
             android:id="@+id/btRegistro"
-            android:layout_width="@dimen/anchoBoton"
-            android:layout_height="@dimen/altoBoton"
-            android:layout_marginBottom="55dp"
+            android:layout_width="@dimen/anchoBotonRegistro"
+            android:layout_height="@dimen/altoBotonRegistro"
+            android:layout_marginBottom="40dp"
             android:background="@drawable/btn_redondeado_amarillo"
-            android:elevation="@dimen/elevationBoton"
+            android:elevation="@dimen/elevationBotonRegistro"
             android:text="Registrate"
             android:textSize="@dimen/textBotonRegistro" />
 
         <TextView
-            android:id="@+id/tvOlvidarPass"
+            android:id="@+id/tvCuentaActiva"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingRight="20dp"
             android:gravity="end"
-            android:text="¿Olvidaste la contraseña?"
+            android:text="¿Ya Tienes Cuenta? Click Aqui"
             android:textColor="@color/white"
-            android:textSize="@dimen/textSizeRegistro" />
+            android:textSize="@dimen/textSize" />
     </LinearLayout>
 
     <LinearLayout
@@ -137,5 +162,6 @@
             android:src="@drawable/iconprincipal"
             android:transitionName="logoImageTrans" />
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
