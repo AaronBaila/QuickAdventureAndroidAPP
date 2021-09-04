@@ -6,25 +6,31 @@
 
     <!-- Dimensiones LayoutTextosBotones -->
 
-    <dimen name="textInput">15sp</dimen>
-    <dimen name="anchoInput">300dp</dimen>
-    <dimen name="altoInput">50dp</dimen>
+    <dimen name="textInputLogin">15sp</dimen>
+    <dimen name="anchoInputLogin">300dp</dimen>
+    <dimen name="altoInputLogin">50dp</dimen>
 
     <!-- Dimensiones Botones -->
 
-    <dimen name="textBoton">14sp</dimen>
-    <dimen name="anchoBoton">300dp</dimen>
-    <dimen name="altoBoton">40dp</dimen>
-    <dimen name="elevationBoton">45dp</dimen>
+    <dimen name="textBotonLogin">14sp</dimen>
+    <dimen name="anchoBotonLogin">300dp</dimen>
+    <dimen name="altoBotonLogin">40dp</dimen>
+    <dimen name="elevationBotonLogin">45dp</dimen>
 
     <!-- Dimensiones Botones De Texto-->
 
-    <dimen name="textSize">18sp</dimen>
+    <dimen name="textSizeLogin">18sp</dimen>
 
     <!-- Dimensiones Icono -->
 
-    <dimen name="anchoIconPrincipal">140dp</dimen>
-    <dimen name="altoIconPrincipal">140dp</dimen>
+    <dimen name="anchoIconPrincipalLoginXS">76dp</dimen>
+    <dimen name="altoIconPrincipalLoginXS">76dp</dimen>
+
+    <dimen name="anchoIconPrincipalLoginXL">270dp</dimen>
+    <dimen name="altoIconPrincipalLoginXL">270dp</dimen>
+
+
+    <!--  ****************************************************************************************************************** -->
 
     <!--  ***************   Dimensiones Registro  *************** -->
 
@@ -44,15 +50,15 @@
 
     <!-- Dimensiones Botones De Texto-->
 
-    <dimen name="textSizeRegistro">18sp</dimen>
+    <dimen name="textSizeRegistro">16sp</dimen>
 
     <!-- Dimensiones Icono -->
 
-    <dimen name="anchoIconPrincipalRegistro">66dp</dimen>
-    <dimen name="altoIconPrincipalRegistro">66dp</dimen>
+    <dimen name="anchoIconPrincipalRegistroXS">76dp</dimen>
+    <dimen name="altoIconPrincipalRegistroXS">76dp</dimen>
 
-    <dimen name="anchoIconPrincipalRegistro2">270dp</dimen>
-    <dimen name="altoIconPrincipalRegistro2">270dp</dimen>
+    <dimen name="anchoIconPrincipalRegistroXL">270dp</dimen>
+    <dimen name="altoIconPrincipalRegistroXL">270dp</dimen>
 
 
 </resources>

@@ -1,26 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Dimensiones Inputs -->
 
-    <dimen name="textInput">23sp</dimen>
-    <dimen name="anchoInput">400dp</dimen>
-    <dimen name="altoInput">60dp</dimen>
+    <!--  ***************   Dimensiones Login   *************** -->
+
+    <!-- Dimensiones LayoutTextosBotones -->
+
+    <dimen name="textInputLogin">17sp</dimen>
+    <dimen name="anchoInputLogin">430dp</dimen>
+    <dimen name="altoInputLogin">57dp</dimen>
 
     <!-- Dimensiones Botones -->
 
-    <dimen name="textBoton">20sp</dimen>
-    <dimen name="anchoBoton">300dp</dimen>
-    <dimen name="altoBoton">50dp</dimen>
-    <dimen name="elevationBoton">40dp</dimen>
+    <dimen name="textBotonLogin">16sp</dimen>
+    <dimen name="anchoBotonLogin">430dp</dimen>
+    <dimen name="altoBotonLogin">50dp</dimen>
+    <dimen name="elevationBotonLogin">45dp</dimen>
 
     <!-- Dimensiones Botones De Texto-->
 
-    <dimen name="textSize">23sp</dimen>
+    <dimen name="textSizeLogin">21sp</dimen>
 
-    <!-- Dimensiones Generales -->
+    <!-- Dimensiones Icono -->
 
-    <dimen name="anchoIconPrincipal">250dp</dimen>
-    <dimen name="altoIconPrincipal">250dp</dimen>
+    <dimen name="anchoIconPrincipalLoginXS">86dp</dimen>
+    <dimen name="altoIconPrincipalLoginXS">86dp</dimen>
+
+    <dimen name="anchoIconPrincipalLoginXL">270dp</dimen>
+    <dimen name="altoIconPrincipalLoginXL">270dp</dimen>
+
+
+    <!--  ****************************************************************************************************************** -->
+
+    <!--  ***************   Dimensiones Registro  *************** -->
+
+
+    <!-- Dimensiones LayoutTextosBotones -->
+
+    <dimen name="textInputRegistro">17sp</dimen>
+    <dimen name="anchoInputRegistro">430dp</dimen>
+    <dimen name="altoInputRegistro">57dp</dimen>
+
+    <!-- Dimensiones Botones -->
+
+    <dimen name="textBotonRegistro">16sp</dimen>
+    <dimen name="anchoBotonRegistro">430dp</dimen>
+    <dimen name="altoBotonRegistro">50dp</dimen>
+    <dimen name="elevationBotonRegistro">45dp</dimen>
+
+    <!-- Dimensiones Botones De Texto-->
+
+    <dimen name="textSizeRegistro">21sp</dimen>
+
+    <!-- Dimensiones Icono -->
+
+    <dimen name="anchoIconPrincipalRegistroXS">86dp</dimen>
+    <dimen name="altoIconPrincipalRegistroXS">86dp</dimen>
+
+    <dimen name="anchoIconPrincipalRegistroXL">370dp</dimen>
+    <dimen name="altoIconPrincipalRegistroXL">370dp</dimen>
+
 
 </resources>

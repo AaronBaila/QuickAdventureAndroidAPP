@@ -108,7 +108,7 @@ public class Registro extends AppCompatActivity {
                 }else{
                     //Si las contraseñas no coinciden (No esta bien escrita)
                     barraCarga.dismiss();
-                    tvErrorPass.setText("Error. Contraseñas deben coincidir !");
+                    tvErrorPass.setText("Error, Contraseñas No Coinciden.");
                 }
             }
         });

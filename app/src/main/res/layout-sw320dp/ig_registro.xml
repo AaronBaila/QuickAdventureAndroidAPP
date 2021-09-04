@@ -37,10 +37,10 @@
 
         <ImageView
             android:id="@+id/ivLogoLogin1"
-            android:layout_width="@dimen/anchoIconPrincipalRegistro2"
-            android:layout_height="@dimen/altoIconPrincipalRegistro2"
+            android:layout_width="@dimen/anchoIconPrincipalRegistroXL"
+            android:layout_height="@dimen/altoIconPrincipalRegistroXL"
             android:layout_gravity="center"
-            android:alpha="0.1"
+            android:alpha="0.06"
             android:src="@drawable/iconprincipal"
             android:transitionName="logoImageTrans" />
     </LinearLayout>
@@ -116,9 +116,9 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
             android:gravity="center"
-            android:text="Error, Contraseñas No Coinciden. Vuelva a intentarlo"
+            android:text=" "
             android:textColor="@color/red"
-            android:textSize="@dimen/textSize" />
+            android:textSize="@dimen/textSizeRegistro" />
 
         <Button
             android:id="@+id/btRegistro"
@@ -134,11 +134,11 @@
             android:id="@+id/tvCuentaActiva"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingRight="20dp"
+            android:paddingRight="5dp"
             android:gravity="end"
             android:text="¿Ya Tienes Cuenta? Click Aqui"
             android:textColor="@color/white"
-            android:textSize="@dimen/textSize" />
+            android:textSize="@dimen/textSizeRegistro" />
     </LinearLayout>
 
     <LinearLayout
@@ -155,8 +155,8 @@
 
         <ImageView
             android:id="@+id/ivLogoLogin"
-            android:layout_width="@dimen/anchoIconPrincipalRegistro"
-            android:layout_height="@dimen/altoIconPrincipalRegistro"
+            android:layout_width="@dimen/anchoIconPrincipalLoginXS"
+            android:layout_height="@dimen/altoIconPrincipalLoginXS"
             android:layout_gravity="center"
             android:alpha="0.8"
             android:src="@drawable/iconprincipal"

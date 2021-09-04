@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/cL"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -26,21 +25,22 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/llLogoLogin"
+        android:id="@+id/llLogoLogin1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="65dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18">
 
         <ImageView
-            android:id="@+id/ivLogoLogin"
-            android:layout_width="@dimen/anchoIconPrincipal"
-            android:layout_height="@dimen/altoIconPrincipal"
+            android:id="@+id/ivLogoLogin1"
+            android:layout_width="@dimen/anchoIconPrincipalLoginXL"
+            android:layout_height="@dimen/altoIconPrincipalLoginXL"
             android:layout_gravity="center"
-            android:alpha="0.9"
+            android:alpha="0.06"
             android:src="@drawable/iconprincipal"
             android:transitionName="logoImageTrans" />
     </LinearLayout>
@@ -49,71 +49,93 @@
         android:id="@+id/llItems"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/llLogoLogin"
-        app:layout_constraintVertical_bias="0.68">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45">
 
         <EditText
             android:id="@+id/etEmail"
-            android:layout_width="@dimen/anchoInput"
-            android:layout_height="@dimen/altoInput"
-            android:layout_marginBottom="15dp"
+            android:layout_width="@dimen/anchoInputLogin"
+            android:layout_height="@dimen/altoInputLogin"
+            android:layout_marginBottom="20dp"
             android:background="@drawable/input"
             android:hint="Correo Electrónico"
-            android:paddingLeft="15dp"
             android:inputType="textEmailAddress"
+            android:paddingLeft="15dp"
             android:textColorHint="#000000"
-            android:textSize="@dimen/textInput" />
+            android:textSize="@dimen/textInputLogin" />
 
         <EditText
             android:id="@+id/etPass"
-            android:layout_width="@dimen/anchoInput"
-            android:layout_height="@dimen/altoInput"
-            android:layout_marginBottom="50dp"
+            android:layout_width="@dimen/anchoInputLogin"
+            android:layout_height="@dimen/altoInputLogin"
+            android:layout_marginBottom="80dp"
             android:background="@drawable/input"
-            android:paddingLeft="15dp"
             android:hint="Contraseña"
             android:inputType="textPassword"
+            android:paddingLeft="15dp"
             android:textColorHint="#000000"
-            android:textSize="@dimen/textInput" />
+            android:textSize="@dimen/textInputLogin" />
 
         <Button
             android:id="@+id/btLogin"
-            android:layout_width="@dimen/anchoBoton"
-            android:layout_height="@dimen/altoBoton"
-            android:layout_marginBottom="15dp"
+            android:layout_width="@dimen/anchoBotonLogin"
+            android:layout_height="@dimen/altoBotonLogin"
+            android:layout_marginBottom="10dp"
             android:background="@drawable/btn_redondeado_amarillo"
-            android:elevation="@dimen/elevationBoton"
+            android:elevation="@dimen/elevationBotonLogin"
             android:text="Iniciar Sesión"
-            android:textSize="@dimen/textBoton" />
+            android:textSize="@dimen/textBotonLogin" />
 
         <Button
             android:id="@+id/btRegistro"
-            android:layout_width="@dimen/anchoBoton"
-            android:layout_height="@dimen/altoBoton"
+            android:layout_width="@dimen/anchoBotonLogin"
+            android:layout_height="@dimen/altoBotonLogin"
+            android:layout_marginBottom="60dp"
             android:background="@drawable/btn_redondeado_amarillo"
-            android:elevation="@dimen/elevationBoton"
+            android:elevation="@dimen/elevationBotonLogin"
             android:text="Registrate"
-            android:textSize="@dimen/textBoton"
-            android:layout_marginBottom="50dp"/>
+            android:textSize="@dimen/textBotonLogin" />
 
         <TextView
             android:id="@+id/tvOlvidarPass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginRight="25dp"
-            android:layout_marginBottom="20dp"
+            android:paddingRight="20dp"
             android:gravity="end"
             android:text="¿Olvidaste la contraseña?"
             android:textColor="@color/white"
-            android:textSize="@dimen/textSize" />
+            android:textSize="@dimen/textSizeLogin" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llLogoLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98"
+        app:layout_constraintHorizontal_bias="0.06">
+
+        <ImageView
+            android:id="@+id/ivLogoLogin"
+            android:layout_width="@dimen/anchoIconPrincipalLoginXS"
+            android:layout_height="@dimen/altoIconPrincipalLoginXS"
+            android:layout_gravity="center"
+            android:alpha="0.8"
+            android:src="@drawable/iconprincipal"
+            android:transitionName="logoImageTrans" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
