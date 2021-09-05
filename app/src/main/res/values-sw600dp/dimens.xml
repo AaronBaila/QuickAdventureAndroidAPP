@@ -14,12 +14,12 @@
 
     <dimen name="textBotonLogin">21sp</dimen>
     <dimen name="anchoBotonLogin">535dp</dimen>
-    <dimen name="altoBotonLogin">75dp</dimen>
+    <dimen name="altoBotonLogin">80dp</dimen>
     <dimen name="elevationBotonLogin">45dp</dimen>
 
     <!-- Dimensiones Botones De Texto-->
 
-    <dimen name="textSizeLogin">24sp</dimen>
+    <dimen name="textSizeLogin">26sp</dimen>
 
     <!-- Dimensiones Icono -->
 
