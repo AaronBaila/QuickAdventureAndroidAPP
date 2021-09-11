@@ -39,18 +39,18 @@
 
     <dimen name="textInputRegistro">13sp</dimen>
     <dimen name="anchoInputRegistro">300dp</dimen>
-    <dimen name="altoInputRegistro">50dp</dimen>
+    <dimen name="altoInputRegistro">40dp</dimen>
 
     <!-- Dimensiones Botones -->
 
     <dimen name="textBotonRegistro">12sp</dimen>
     <dimen name="anchoBotonRegistro">300dp</dimen>
-    <dimen name="altoBotonRegistro">55dp</dimen>
+    <dimen name="altoBotonRegistro">45dp</dimen>
     <dimen name="elevationBotonRegistro">45dp</dimen>
 
     <!-- Dimensiones Botones De Texto-->
 
-    <dimen name="textSizeRegistro">15sp</dimen>
+    <dimen name="textSizeRegistro">16sp</dimen>
 
     <!-- Dimensiones Icono -->
 
