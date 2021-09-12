@@ -37,12 +37,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.18">
+        app:layout_constraintVertical_bias="0.4">
 
         <ImageView
             android:id="@+id/ivLogoLogin1"
-            android:layout_width="@dimen/anchoIconPrincipalLoginXL"
-            android:layout_height="@dimen/altoIconPrincipalLoginXL"
+            android:layout_width="@dimen/anchoIconPrincipalRegistroXL"
+            android:layout_height="@dimen/altoIconPrincipalRegistroXL"
             android:layout_gravity="center"
             android:alpha="0.055"
             android:src="@drawable/iconprincipal"
@@ -66,48 +66,72 @@
         app:layout_constraintVertical_bias="0.36">
 
         <EditText
+            android:id="@+id/etApodo"
+            android:layout_width="@dimen/anchoInputRegistro"
+            android:layout_height="@dimen/altoInputRegistro"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/input"
+            android:hint="Apodo"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColorHint="#000000"
+            android:textSize="@dimen/textInputRegistro"/>
+
+        <EditText
             android:id="@+id/etEmail"
-            android:layout_width="@dimen/anchoInputLogin"
-            android:layout_height="@dimen/altoInputLogin"
+            android:layout_width="@dimen/anchoInputRegistro"
+            android:layout_height="@dimen/altoInputRegistro"
             android:layout_marginBottom="25dp"
             android:background="@drawable/input"
             android:hint="Correo Electrónico"
             android:inputType="textEmailAddress"
             android:paddingLeft="15dp"
             android:textColorHint="#000000"
-            android:textSize="@dimen/textInputLogin" />
+            android:textSize="@dimen/textInputRegistro" />
 
         <EditText
             android:id="@+id/etPass"
-            android:layout_width="@dimen/anchoInputLogin"
-            android:layout_height="@dimen/altoInputLogin"
-            android:layout_marginBottom="100dp"
+            android:layout_width="@dimen/anchoInputRegistro"
+            android:layout_height="@dimen/altoInputRegistro"
+            android:layout_marginBottom="25dp"
             android:background="@drawable/input"
             android:hint="Contraseña"
             android:inputType="textPassword"
             android:paddingLeft="15dp"
             android:textColorHint="#000000"
-            android:textSize="@dimen/textInputLogin" />
+            android:textSize="@dimen/textInputRegistro" />
+
+        <EditText
+            android:id="@+id/etPass2"
+            android:layout_width="@dimen/anchoInputRegistro"
+            android:layout_height="@dimen/altoInputRegistro"
+            android:layout_marginBottom="95dp"
+            android:background="@drawable/input"
+            android:hint="Repita Contraseña"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            android:textColorHint="#000000"
+            android:textSize="@dimen/textInputRegistro"/>
 
         <Button
             android:id="@+id/btLogin"
-            android:layout_width="@dimen/anchoBotonLogin"
-            android:layout_height="@dimen/altoBotonLogin"
+            android:layout_width="@dimen/anchoBotonRegistro"
+            android:layout_height="@dimen/altoBotonRegistro"
             android:layout_marginBottom="25dp"
             android:background="@drawable/btn_redondeado_amarillo"
-            android:elevation="@dimen/elevationBotonLogin"
+            android:elevation="@dimen/elevationBotonRegistro"
             android:text="Iniciar Sesión"
-            android:textSize="@dimen/textBotonLogin" />
+            android:textSize="@dimen/textBotonRegistro" />
 
         <Button
             android:id="@+id/btRegistro"
-            android:layout_width="@dimen/anchoBotonLogin"
-            android:layout_height="@dimen/altoBotonLogin"
-            android:layout_marginBottom="60dp"
+            android:layout_width="@dimen/anchoBotonRegistro"
+            android:layout_height="@dimen/altoBotonRegistro"
+            android:layout_marginBottom="40dp"
             android:background="@drawable/btn_redondeado_amarillo"
-            android:elevation="@dimen/elevationBotonLogin"
+            android:elevation="@dimen/elevationBotonRegistro"
             android:text="Registrate"
-            android:textSize="@dimen/textBotonLogin" />
+            android:textSize="@dimen/textBotonRegistro" />
 
         <TextView
             android:id="@+id/tvOlvidarPass"
@@ -117,7 +141,7 @@
             android:paddingRight="40dp"
             android:text="¿Olvidaste la contraseña?"
             android:textColor="@color/white"
-            android:textSize="@dimen/textSizeLogin" />
+            android:textSize="@dimen/textSizeRegistro" />
     </LinearLayout>
 
     <LinearLayout
@@ -127,15 +151,15 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintHorizontal_bias="0.02"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.98">
 
         <ImageView
             android:id="@+id/ivLogoLogin"
-            android:layout_width="@dimen/anchoIconPrincipalLoginXS"
-            android:layout_height="@dimen/altoIconPrincipalLoginXS"
+            android:layout_width="@dimen/anchoIconPrincipalRegistroXS"
+            android:layout_height="@dimen/altoIconPrincipalRegistroXS"
             android:layout_gravity="center"
             android:alpha="0.8"
             android:src="@drawable/iconprincipal"

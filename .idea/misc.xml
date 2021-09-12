@@ -46,8 +46,18 @@
         <entry key="..\:/Users/Aaron/Desktop/Proyectos/QuickAdventure/app/src/main/res/layout/splash.xml" value="0.24895833333333334" />
         <entry key="app/src/main/res/layout-sw320dp/activity_login.xml" value="0.75" />
         <entry key="app/src/main/res/layout-sw320dp/ig_registro.xml" value="0.13729508196721313" />
-        <entry key="app/src/main/res/layout-sw480dp/activity_login.xml" value="0.57125" />
+        <entry key="app/src/main/res/layout-sw320dp/splash.xml" value="0.6553030303030303" />
+        <entry key="app/src/main/res/layout-sw480dp-land/ig_registro.xml" value="0.165" />
+        <entry key="app/src/main/res/layout-sw480dp/activity_login.xml" value="0.18247767857142858" />
         <entry key="app/src/main/res/layout-sw480dp/ig_registro.xml" value="0.5" />
+        <entry key="app/src/main/res/layout-sw480dp/splash.xml" value="0.5351288056206089" />
+        <entry key="app/src/main/res/layout-sw600dp-land/activity_login.xml" value="0.34938837920489296" />
+        <entry key="app/src/main/res/layout-sw600dp-land/ig_registro.xml" value="0.25" />
+        <entry key="app/src/main/res/layout-sw600dp/splash.xml" value="0.16933497536945813" />
+        <entry key="app/src/main/res/layout-sw720dp-land/activity_login.xml" value="0.15294511378848727" />
+        <entry key="app/src/main/res/layout-sw720dp-land/ig_registro.xml" value="0.148046875" />
+        <entry key="app/src/main/res/layout-sw720dp/splash.xml" value="0.1391636690647482" />
+        <entry key="app/src/main/res/layout/splash.xml" value="0.1391636690647482" />
       </map>
     </option>
   </component>

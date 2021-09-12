@@ -27,37 +27,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="160dp"
+        android:layout_marginBottom="200dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/llFondoSplash"
-        app:layout_constraintVertical_bias="0.13999999">
+        app:layout_constraintVertical_bias="0.48000002">
 
         <ImageView
             android:id="@+id/ivLogoSplash"
-            android:layout_width="265dp"
-            android:layout_height="280dp"
+            android:layout_width="@dimen/altoIconPrincipalSplashXL"
+            android:layout_height="@dimen/altoIconPrincipalSplashXL"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
             android:src="@drawable/iconprincipal"
             android:transitionName="logoImageTrans" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/llItemsSplash"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginRight="25dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/llLogoSplash"
-        app:layout_constraintStart_toStartOf="@+id/llLogoSplash"
-        app:layout_constraintTop_toBottomOf="@+id/llLogoSplash"
-        app:layout_constraintVertical_bias="0.79">
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

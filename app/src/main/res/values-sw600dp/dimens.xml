@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!--  ***************   Dimensiones Splash   *************** -->
+
+    <dimen name="anchoIconPrincipalSplashXL">495dp</dimen>
+    <dimen name="altoIconPrincipalSplashXL">495dp</dimen>
+
+    <!-- ********************************************************************************************************* -->
+
 
     <!--  ***************   Dimensiones Login   *************** -->
 

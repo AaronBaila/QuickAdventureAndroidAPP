@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!--  ***************   Dimensiones Splash   *************** -->
+
+    <dimen name="anchoIconPrincipalSplashXL">290dp</dimen>
+    <dimen name="altoIconPrincipalSplashXL">290dp</dimen>
+
+    <!-- ********************************************************************************************************* -->
 
     <!--  ***************   Dimensiones Login   *************** -->
 
@@ -8,13 +14,13 @@
 
     <dimen name="textInputLogin">22sp</dimen>
     <dimen name="anchoInputLogin">800dp</dimen>
-    <dimen name="altoInputLogin">75dp</dimen>
+    <dimen name="altoInputLogin">50dp</dimen>
 
     <!-- Dimensiones Botones -->
 
     <dimen name="textBotonLogin">21sp</dimen>
     <dimen name="anchoBotonLogin">800dp</dimen>
-    <dimen name="altoBotonLogin">80dp</dimen>
+    <dimen name="altoBotonLogin">50dp</dimen>
     <dimen name="elevationBotonLogin">45dp</dimen>
 
     <!-- Dimensiones Botones De Texto-->
@@ -37,28 +43,28 @@
 
     <!-- Dimensiones LayoutTextosBotones -->
 
-    <dimen name="textInputRegistro">13sp</dimen>
-    <dimen name="anchoInputRegistro">300dp</dimen>
-    <dimen name="altoInputRegistro">50dp</dimen>
+    <dimen name="textInputRegistro">24sp</dimen>
+    <dimen name="anchoInputRegistro">850dp</dimen>
+    <dimen name="altoInputRegistro">60dp</dimen>
 
     <!-- Dimensiones Botones -->
 
-    <dimen name="textBotonRegistro">12sp</dimen>
-    <dimen name="anchoBotonRegistro">300dp</dimen>
-    <dimen name="altoBotonRegistro">55dp</dimen>
+    <dimen name="textBotonRegistro">23sp</dimen>
+    <dimen name="anchoBotonRegistro">650dp</dimen>
+    <dimen name="altoBotonRegistro">62dp</dimen>
     <dimen name="elevationBotonRegistro">45dp</dimen>
 
     <!-- Dimensiones Botones De Texto-->
 
-    <dimen name="textSizeRegistro">15sp</dimen>
+    <dimen name="textSizeRegistro">28sp</dimen>
 
     <!-- Dimensiones Icono -->
 
-    <dimen name="anchoIconPrincipalRegistroXS">76dp</dimen>
-    <dimen name="altoIconPrincipalRegistroXS">76dp</dimen>
+    <dimen name="anchoIconPrincipalRegistroXS">96dp</dimen>
+    <dimen name="altoIconPrincipalRegistroXS">96dp</dimen>
 
-    <dimen name="anchoIconPrincipalRegistroXL">280dp</dimen>
-    <dimen name="altoIconPrincipalRegistroXL">280dp</dimen>
+    <dimen name="anchoIconPrincipalRegistroXL">380dp</dimen>
+    <dimen name="altoIconPrincipalRegistroXL">380dp</dimen>
 
 
 </resources>

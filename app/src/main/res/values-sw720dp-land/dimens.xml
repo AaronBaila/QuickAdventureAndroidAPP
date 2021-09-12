@@ -37,28 +37,28 @@
 
     <!-- Dimensiones LayoutTextosBotones -->
 
-    <dimen name="textInputRegistro">13sp</dimen>
-    <dimen name="anchoInputRegistro">300dp</dimen>
-    <dimen name="altoInputRegistro">50dp</dimen>
+    <dimen name="textInputRegistro">30sp</dimen>
+    <dimen name="anchoInputRegistro">840dp</dimen>
+    <dimen name="altoInputRegistro">75dp</dimen>
 
     <!-- Dimensiones Botones -->
 
-    <dimen name="textBotonRegistro">12sp</dimen>
-    <dimen name="anchoBotonRegistro">300dp</dimen>
-    <dimen name="altoBotonRegistro">55dp</dimen>
+    <dimen name="textBotonRegistro">33sp</dimen>
+    <dimen name="anchoBotonRegistro">670dp</dimen>
+    <dimen name="altoBotonRegistro">78dp</dimen>
     <dimen name="elevationBotonRegistro">45dp</dimen>
 
     <!-- Dimensiones Botones De Texto-->
 
-    <dimen name="textSizeRegistro">15sp</dimen>
+    <dimen name="textSizeRegistro">38sp</dimen>
 
     <!-- Dimensiones Icono -->
 
-    <dimen name="anchoIconPrincipalRegistroXS">76dp</dimen>
-    <dimen name="altoIconPrincipalRegistroXS">76dp</dimen>
+    <dimen name="anchoIconPrincipalRegistroXS">130dp</dimen>
+    <dimen name="altoIconPrincipalRegistroXS">130dp</dimen>
 
-    <dimen name="anchoIconPrincipalRegistroXL">280dp</dimen>
-    <dimen name="altoIconPrincipalRegistroXL">280dp</dimen>
+    <dimen name="anchoIconPrincipalRegistroXL">750dp</dimen>
+    <dimen name="altoIconPrincipalRegistroXL">750dp</dimen>
 
 
 </resources>
