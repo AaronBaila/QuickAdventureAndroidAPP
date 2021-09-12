@@ -40,7 +40,7 @@
             android:layout_width="@dimen/anchoIconPrincipalRegistroXL"
             android:layout_height="@dimen/altoIconPrincipalRegistroXL"
             android:layout_gravity="center"
-            android:alpha="0.06"
+            android:alpha="0.055"
             android:src="@drawable/iconprincipal"
             android:transitionName="logoImageTrans" />
     </LinearLayout>
@@ -59,13 +59,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.81">
+        app:layout_constraintVertical_bias="0.3">
 
         <EditText
-            android:id="@+id/etNombre"
+            android:id="@+id/etApodo"
             android:layout_width="@dimen/anchoInputRegistro"
             android:layout_height="@dimen/altoInputRegistro"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="25dp"
             android:background="@drawable/input"
             android:hint="Apodo"
             android:inputType="text"
@@ -73,12 +73,11 @@
             android:textColorHint="#000000"
             android:textSize="@dimen/textInputRegistro" />
 
-
         <EditText
             android:id="@+id/etEmail"
             android:layout_width="@dimen/anchoInputRegistro"
             android:layout_height="@dimen/altoInputRegistro"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="25dp"
             android:background="@drawable/input"
             android:hint="Correo Electrónico"
             android:inputType="textEmailAddress"
@@ -90,7 +89,7 @@
             android:id="@+id/etPass"
             android:layout_width="@dimen/anchoInputRegistro"
             android:layout_height="@dimen/altoInputRegistro"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="25dp"
             android:background="@drawable/input"
             android:hint="Contraseña"
             android:inputType="textPassword"
@@ -102,7 +101,7 @@
             android:id="@+id/etPass2"
             android:layout_width="@dimen/anchoInputRegistro"
             android:layout_height="@dimen/altoInputRegistro"
-            android:layout_marginBottom="50dp"
+            android:layout_marginBottom="100dp"
             android:background="@drawable/input"
             android:hint="Repita Contraseña"
             android:inputType="textPassword"
@@ -110,34 +109,33 @@
             android:textColorHint="#000000"
             android:textSize="@dimen/textInputRegistro" />
 
-        <TextView
-            android:id="@+id/tvErrorPass"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:gravity="center"
-            android:text=" "
-            android:textColor="@color/red"
-            android:textSize="@dimen/textSizeRegistro" />
+        <Button
+            android:id="@+id/btLogin"
+            android:layout_width="@dimen/anchoBotonRegistro"
+            android:layout_height="@dimen/altoBotonRegistro"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/btn_redondeado_amarillo"
+            android:elevation="@dimen/elevationBotonRegistro"
+            android:text="Iniciar Sesión"
+            android:textSize="@dimen/textBotonRegistro" />
 
         <Button
             android:id="@+id/btRegistro"
             android:layout_width="@dimen/anchoBotonRegistro"
             android:layout_height="@dimen/altoBotonRegistro"
-            android:layout_marginBottom="100dp"
+            android:layout_marginBottom="80dp"
             android:background="@drawable/btn_redondeado_amarillo"
             android:elevation="@dimen/elevationBotonRegistro"
             android:text="Registrate"
             android:textSize="@dimen/textBotonRegistro" />
 
         <TextView
-            android:id="@+id/tvCuentaActiva"
+            android:id="@+id/tvOlvidarPass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingRight="20dp"
-            android:layout_marginBottom="20dp"
+            android:paddingRight="24dp"
             android:gravity="end"
-            android:text="¿Ya Tienes Cuenta? Click Aqui"
+            android:text="¿Olvidaste la contraseña?"
             android:textColor="@color/white"
             android:textSize="@dimen/textSizeRegistro" />
     </LinearLayout>
@@ -151,13 +149,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.97"
-        app:layout_constraintHorizontal_bias="0.06">
+        app:layout_constraintVertical_bias="0.98"
+        app:layout_constraintHorizontal_bias="0.03">
 
         <ImageView
             android:id="@+id/ivLogoLogin"
-            android:layout_width="@dimen/anchoIconPrincipalLoginXS"
-            android:layout_height="@dimen/altoIconPrincipalLoginXS"
+            android:layout_width="@dimen/anchoIconPrincipalRegistroXS"
+            android:layout_height="@dimen/altoIconPrincipalRegistroXS"
             android:layout_gravity="center"
             android:alpha="0.8"
             android:src="@drawable/iconprincipal"

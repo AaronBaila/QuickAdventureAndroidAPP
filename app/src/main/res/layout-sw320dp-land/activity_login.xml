@@ -37,7 +37,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.18">
+        app:layout_constraintVertical_bias="0.3">
 
         <ImageView
             android:id="@+id/ivLogoLogin1"
@@ -81,7 +81,7 @@
             android:id="@+id/etPass"
             android:layout_width="@dimen/anchoInputLogin"
             android:layout_height="@dimen/altoInputLogin"
-            android:layout_marginBottom="50dp"
+            android:layout_marginBottom="40dp"
             android:background="@drawable/input"
             android:hint="Contraseña"
             android:inputType="textPassword"
@@ -103,7 +103,7 @@
             android:id="@+id/btRegistro"
             android:layout_width="@dimen/anchoBotonLogin"
             android:layout_height="@dimen/altoBotonLogin"
-            android:layout_marginBottom="30dp"
+            android:layout_marginBottom="20dp"
             android:background="@drawable/btn_redondeado_amarillo"
             android:elevation="@dimen/elevationBotonLogin"
             android:text="Registrate"
@@ -127,7 +127,7 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintHorizontal_bias="0.018"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.98">

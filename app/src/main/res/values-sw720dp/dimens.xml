@@ -8,13 +8,13 @@
 
     <dimen name="textInputLogin">25sp</dimen>
     <dimen name="anchoInputLogin">735dp</dimen>
-    <dimen name="altoInputLogin">94dp</dimen>
+    <dimen name="altoInputLogin">90dp</dimen>
 
     <!-- Dimensiones Botones -->
 
     <dimen name="textBotonLogin">24sp</dimen>
     <dimen name="anchoBotonLogin">735dp</dimen>
-    <dimen name="altoBotonLogin">100dp</dimen>
+    <dimen name="altoBotonLogin">92dp</dimen>
     <dimen name="elevationBotonLogin">45dp</dimen>
 
     <!-- Dimensiones Botones De Texto-->
@@ -23,8 +23,8 @@
 
     <!-- Dimensiones Icono -->
 
-    <dimen name="anchoIconPrincipalLoginXS">130dp</dimen>
-    <dimen name="altoIconPrincipalLoginXS">130dp</dimen>
+    <dimen name="anchoIconPrincipalLoginXS">120dp</dimen>
+    <dimen name="altoIconPrincipalLoginXS">120dp</dimen>
 
     <dimen name="anchoIconPrincipalLoginXL">590dp</dimen>
     <dimen name="altoIconPrincipalLoginXL">590dp</dimen>
@@ -39,13 +39,13 @@
 
     <dimen name="textInputRegistro">25sp</dimen>
     <dimen name="anchoInputRegistro">735dp</dimen>
-    <dimen name="altoInputRegistro">94dp</dimen>
+    <dimen name="altoInputRegistro">90dp</dimen>
 
     <!-- Dimensiones Botones -->
 
     <dimen name="textBotonRegistro">24sp</dimen>
     <dimen name="anchoBotonRegistro">735dp</dimen>
-    <dimen name="altoBotonRegistro">100dp</dimen>
+    <dimen name="altoBotonRegistro">92dp</dimen>
     <dimen name="elevationBotonRegistro">45dp</dimen>
 
     <!-- Dimensiones Botones De Texto-->
@@ -54,8 +54,8 @@
 
     <!-- Dimensiones Icono -->
 
-    <dimen name="anchoIconPrincipalRegistroXS">130dp</dimen>
-    <dimen name="altoIconPrincipalRegistroXS">130dp</dimen>
+    <dimen name="anchoIconPrincipalRegistroXS">120dp</dimen>
+    <dimen name="altoIconPrincipalRegistroXS">120dp</dimen>
 
     <dimen name="anchoIconPrincipalRegistroXL">590dp</dimen>
     <dimen name="altoIconPrincipalRegistroXL">590dp</dimen>

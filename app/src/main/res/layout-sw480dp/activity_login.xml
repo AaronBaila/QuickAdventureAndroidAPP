@@ -59,13 +59,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.33">
+        app:layout_constraintVertical_bias="0.4">
 
         <EditText
             android:id="@+id/etEmail"
             android:layout_width="@dimen/anchoInputLogin"
             android:layout_height="@dimen/altoInputLogin"
-            android:layout_marginBottom="15dp"
+            android:layout_marginBottom="12dp"
             android:background="@drawable/input"
             android:hint="Correo Electrónico"
             android:inputType="textEmailAddress"
@@ -89,7 +89,7 @@
             android:id="@+id/btLogin"
             android:layout_width="@dimen/anchoBotonLogin"
             android:layout_height="@dimen/altoBotonLogin"
-            android:layout_marginBottom="15dp"
+            android:layout_marginBottom="12dp"
             android:background="@drawable/btn_redondeado_amarillo"
             android:elevation="@dimen/elevationBotonLogin"
             android:text="Iniciar Sesión"

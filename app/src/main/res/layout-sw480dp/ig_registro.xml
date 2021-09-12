@@ -41,8 +41,8 @@
 
         <ImageView
             android:id="@+id/ivLogoLogin1"
-            android:layout_width="@dimen/anchoIconPrincipalLoginXL"
-            android:layout_height="@dimen/altoIconPrincipalLoginXL"
+            android:layout_width="@dimen/anchoIconPrincipalRegistroXL"
+            android:layout_height="@dimen/altoIconPrincipalRegistroXL"
             android:layout_gravity="center"
             android:alpha="0.055"
             android:src="@drawable/iconprincipal"
@@ -87,7 +87,7 @@
             android:inputType="textEmailAddress"
             android:paddingLeft="15dp"
             android:textColorHint="#000000"
-            android:textSize="@dimen/textInputLogin" />
+            android:textSize="@dimen/textInputRegistro" />
 
         <EditText
             android:id="@+id/etPass"
@@ -99,7 +99,7 @@
             android:inputType="textPassword"
             android:paddingLeft="15dp"
             android:textColorHint="#000000"
-            android:textSize="@dimen/textInputLogin" />
+            android:textSize="@dimen/textInputRegistro" />
 
         <EditText
             android:id="@+id/etPass2"
@@ -119,7 +119,7 @@
             android:layout_height="@dimen/altoBotonRegistro"
             android:layout_marginBottom="12dp"
             android:background="@drawable/btn_redondeado_amarillo"
-            android:elevation="@dimen/elevationBotonLogin"
+            android:elevation="@dimen/elevationBotonRegistro"
             android:text="Iniciar Sesión"
             android:textSize="@dimen/textBotonRegistro" />
 
@@ -129,7 +129,7 @@
             android:layout_height="@dimen/altoBotonRegistro"
             android:layout_marginBottom="40dp"
             android:background="@drawable/btn_redondeado_amarillo"
-            android:elevation="@dimen/elevationBotonLogin"
+            android:elevation="@dimen/elevationBotonRegistro"
             android:text="Registrate"
             android:textSize="@dimen/textBotonRegistro" />
 
@@ -158,8 +158,8 @@
 
         <ImageView
             android:id="@+id/ivLogoLogin"
-            android:layout_width="@dimen/anchoIconPrincipalLoginXS"
-            android:layout_height="@dimen/altoIconPrincipalLoginXS"
+            android:layout_width="@dimen/anchoIconPrincipalRegistroXS"
+            android:layout_height="@dimen/altoIconPrincipalRegistroXS"
             android:layout_gravity="center"
             android:alpha="0.8"
             android:src="@drawable/iconprincipal"

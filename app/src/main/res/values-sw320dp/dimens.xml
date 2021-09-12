@@ -14,7 +14,7 @@
 
     <dimen name="textBotonLogin">12sp</dimen>
     <dimen name="anchoBotonLogin">300dp</dimen>
-    <dimen name="altoBotonLogin">55dp</dimen>
+    <dimen name="altoBotonLogin">52dp</dimen>
     <dimen name="elevationBotonLogin">45dp</dimen>
 
     <!-- Dimensiones Botones De Texto-->
@@ -45,7 +45,7 @@
 
     <dimen name="textBotonRegistro">12sp</dimen>
     <dimen name="anchoBotonRegistro">300dp</dimen>
-    <dimen name="altoBotonRegistro">45dp</dimen>
+    <dimen name="altoBotonRegistro">42dp</dimen>
     <dimen name="elevationBotonRegistro">45dp</dimen>
 
     <!-- Dimensiones Botones De Texto-->
