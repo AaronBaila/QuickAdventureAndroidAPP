@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.basgeekball.awesomevalidation.AwesomeValidation;
@@ -21,8 +22,9 @@ public class Login extends AppCompatActivity {
 
     //Creamos variables para posteriormente refenciar los id's o instanciar los objetos
 
-    Button btRegistro, btAcceder;
-    EditText emailLogin, passLogin;
+    Button btRegistroLogin, btLogin;
+    EditText etEmailLogin, etPassLogin;
+    TextView tvOlvidarPass;
 
     FirebaseAuth firebaseAuth;
 
@@ -36,10 +38,11 @@ public class Login extends AppCompatActivity {
 
         //Referenciamos id's
 
-        emailLogin = findViewById(R.id.etEmail);
-        passLogin = findViewById(R.id.etPass);
-        btRegistro = findViewById(R.id.btRegistro);
-        btAcceder = findViewById(R.id.btLogin);
+        etEmailLogin = findViewById(R.id.etEmailLogin);
+        etPassLogin = findViewById(R.id.etPassLogin);
+        btRegistroLogin = findViewById(R.id.btRegistroLogin);
+        btLogin = findViewById(R.id.btLogin);
+        tvOlvidarPass = findViewById(R.id.tvOlvidarPass);
 
         //Instanciamos objetos
 
@@ -49,7 +52,7 @@ public class Login extends AppCompatActivity {
         barraCarga = new ProgressDialog(Login.this);
 
         //Botón para acceder activity registro
-        btRegistro.setOnClickListener(new View.OnClickListener() {
+        btRegistroLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Login.this, Registro.class);
@@ -58,7 +61,7 @@ public class Login extends AppCompatActivity {
         });
 
         //Boton acceder / comprueba si los datos son correctos(si el usuario esta registrado en la BD) y si es asi inicia sesion
-        btAcceder.setOnClickListener(new View.OnClickListener() {
+        btLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //Iniciamos los parametros de la barra de carga y la mostramos
@@ -68,8 +71,8 @@ public class Login extends AppCompatActivity {
                 barraCarga.show();
 
                 //Obtenemos los datos de los campos correspondientes
-                String mail = emailLogin.getText().toString();
-                String pass = passLogin.getText().toString();
+                String mail = etEmailLogin.getText().toString();
+                String pass = etPassLogin.getText().toString();
 
                 iniciarSesion(mail, pass);
             }

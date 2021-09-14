@@ -9,14 +9,14 @@
     tools:ignore="MissingDefaultResource">
 
     <LinearLayout
-        android:id="@+id/llFondoImagen"
+        android:id="@+id/llFondoImagenRegistro"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/fondo_fade"
         android:orientation="vertical">
 
         <LinearLayout
-            android:id="@+id/llFondoNegro"
+            android:id="@+id/llFondoNegroRegistro"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:alpha="0.3"
@@ -25,7 +25,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/llLogoLogin1"
+        android:id="@+id/llLogoRegistro1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -36,7 +36,7 @@
         app:layout_constraintVertical_bias="0.18">
 
         <ImageView
-            android:id="@+id/ivLogoLogin1"
+            android:id="@+id/ivLogoRegistro1"
             android:layout_width="@dimen/anchoIconPrincipalRegistroXL"
             android:layout_height="@dimen/altoIconPrincipalRegistroXL"
             android:layout_gravity="center"
@@ -46,7 +46,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/llItems"
+        android:id="@+id/llItemsRegistro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
@@ -74,7 +74,7 @@
             android:textSize="@dimen/textInputRegistro" />
 
         <EditText
-            android:id="@+id/etEmail"
+            android:id="@+id/etEmailRegistro"
             android:layout_width="@dimen/anchoInputRegistro"
             android:layout_height="@dimen/altoInputRegistro"
             android:layout_marginBottom="25dp"
@@ -98,10 +98,10 @@
             android:textSize="@dimen/textInputRegistro" />
 
         <EditText
-            android:id="@+id/etPass2"
+            android:id="@+id/etPass2Registro"
             android:layout_width="@dimen/anchoInputRegistro"
             android:layout_height="@dimen/altoInputRegistro"
-            android:layout_marginBottom="100dp"
+            android:layout_marginBottom="90dp"
             android:background="@drawable/input"
             android:hint="Repita Contraseña"
             android:inputType="textPassword"
@@ -110,38 +110,28 @@
             android:textSize="@dimen/textInputRegistro" />
 
         <Button
-            android:id="@+id/btLogin"
+            android:id="@+id/btRegistroRegistro"
             android:layout_width="@dimen/anchoBotonRegistro"
             android:layout_height="@dimen/altoBotonRegistro"
-            android:layout_marginBottom="25dp"
-            android:background="@drawable/btn_redondeado_amarillo"
-            android:elevation="@dimen/elevationBotonRegistro"
-            android:text="Iniciar Sesión"
-            android:textSize="@dimen/textBotonRegistro" />
-
-        <Button
-            android:id="@+id/btRegistro"
-            android:layout_width="@dimen/anchoBotonRegistro"
-            android:layout_height="@dimen/altoBotonRegistro"
-            android:layout_marginBottom="80dp"
+            android:layout_marginBottom="40dp"
             android:background="@drawable/btn_redondeado_amarillo"
             android:elevation="@dimen/elevationBotonRegistro"
             android:text="Registrate"
             android:textSize="@dimen/textBotonRegistro" />
 
         <TextView
-            android:id="@+id/tvOlvidarPass"
+            android:id="@+id/tvAlreadyCuenta"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingRight="24dp"
             android:gravity="end"
-            android:text="¿Olvidaste la contraseña?"
+            android:paddingRight="30dp"
+            android:text="¿Ya tienes cuenta ? Click Aquí !"
             android:textColor="@color/white"
-            android:textSize="@dimen/textSizeRegistro" />
+            android:textSize="@dimen/textSizeLogin" />
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/llLogoLogin"
+        android:id="@+id/llLogoRegistro2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -149,11 +139,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.98"
-        app:layout_constraintHorizontal_bias="0.03">
+        app:layout_constraintVertical_bias="0.97"
+        app:layout_constraintHorizontal_bias="0.02">
 
         <ImageView
-            android:id="@+id/ivLogoLogin"
+            android:id="@+id/ivLogoRegistro2"
             android:layout_width="@dimen/anchoIconPrincipalRegistroXS"
             android:layout_height="@dimen/altoIconPrincipalRegistroXS"
             android:layout_gravity="center"

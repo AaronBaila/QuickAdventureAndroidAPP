@@ -12,20 +12,24 @@
 
     <!-- Dimensiones LayoutTextosBotones -->
 
-    <dimen name="textInputLogin">13sp</dimen>
+    <dimen name="textInputLogin">14sp</dimen>
     <dimen name="anchoInputLogin">300dp</dimen>
-    <dimen name="altoInputLogin">50dp</dimen>
+    <dimen name="altoInputLogin">46dp</dimen>
 
     <!-- Dimensiones Botones -->
 
-    <dimen name="textBotonLogin">12sp</dimen>
+    <dimen name="textBotonLogin">13sp</dimen>
     <dimen name="anchoBotonLogin">300dp</dimen>
-    <dimen name="altoBotonLogin">52dp</dimen>
+    <dimen name="altoBotonLogin">43dp</dimen>
     <dimen name="elevationBotonLogin">45dp</dimen>
 
     <!-- Dimensiones Botones De Texto-->
 
-    <dimen name="textSizeLogin">15sp</dimen>
+    <dimen name="textSizeLogin">16sp</dimen>
+
+    <!-- Dimensiones Texto Error -->
+
+    <dimen name="textSizeError">12sp</dimen>
 
     <!-- Dimensiones Icono -->
 
@@ -43,15 +47,15 @@
 
     <!-- Dimensiones LayoutTextosBotones -->
 
-    <dimen name="textInputRegistro">13sp</dimen>
+    <dimen name="textInputRegistro">14sp</dimen>
     <dimen name="anchoInputRegistro">300dp</dimen>
-    <dimen name="altoInputRegistro">40dp</dimen>
+    <dimen name="altoInputRegistro">46dp</dimen>
 
     <!-- Dimensiones Botones -->
 
-    <dimen name="textBotonRegistro">12sp</dimen>
+    <dimen name="textBotonRegistro">13sp</dimen>
     <dimen name="anchoBotonRegistro">300dp</dimen>
-    <dimen name="altoBotonRegistro">42dp</dimen>
+    <dimen name="altoBotonRegistro">52dp</dimen>
     <dimen name="elevationBotonRegistro">45dp</dimen>
 
     <!-- Dimensiones Botones De Texto-->

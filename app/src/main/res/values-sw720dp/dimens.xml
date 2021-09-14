@@ -13,7 +13,7 @@
     <!-- Dimensiones LayoutTextosBotones -->
 
     <dimen name="textInputLogin">25sp</dimen>
-    <dimen name="anchoInputLogin">735dp</dimen>
+    <dimen name="anchoInputLogin">755dp</dimen>
     <dimen name="altoInputLogin">90dp</dimen>
 
     <!-- Dimensiones Botones -->
@@ -44,7 +44,7 @@
     <!-- Dimensiones LayoutTextosBotones -->
 
     <dimen name="textInputRegistro">25sp</dimen>
-    <dimen name="anchoInputRegistro">735dp</dimen>
+    <dimen name="anchoInputRegistro">755dp</dimen>
     <dimen name="altoInputRegistro">90dp</dimen>
 
     <!-- Dimensiones Botones -->

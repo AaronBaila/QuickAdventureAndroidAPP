@@ -30,9 +30,9 @@ public class Registro extends AppCompatActivity {
 
     //Creamos variables para posteriormente refenciar los id's o instanciar los objetos
 
-    EditText etEmail, etNombre, etPass, etPass2;
-    TextView tvErrorPass, tvCuentaActiva;
-    Button btRegistro;
+    EditText etEmailRegistro, etApodo, etPassRegistro, etPass2;
+    TextView tvErrorPass, tvAlreadyCuenta;
+    Button btRegistroRegistro;
     String nPlanes = "0";
 
     ProgressDialog barraCarga;
@@ -48,13 +48,13 @@ public class Registro extends AppCompatActivity {
 
         //Referenciamos id's
 
-        etEmail = findViewById(R.id.etEmail);
-        etNombre = findViewById(R.id.etNombre);
-        etPass = findViewById(R.id.etPass);
+        etEmailRegistro = findViewById(R.id.etEmailRegistro);
+        etApodo = findViewById(R.id.etApodo);
+        etPassRegistro = findViewById(R.id.etPassRegistro);
         etPass2 = findViewById(R.id.etPass2);
         tvErrorPass = findViewById(R.id.tvErrorPass);
-        tvCuentaActiva = findViewById(R.id.tvCuentaActiva);
-        btRegistro = findViewById(R.id.btRegistro);
+        tvAlreadyCuenta = findViewById(R.id.tvAlreadyCuenta);
+        btRegistroRegistro = findViewById(R.id.btRegistroRegistro);
 
         //Instanciamos objetos
 
@@ -69,7 +69,7 @@ public class Registro extends AppCompatActivity {
         validarCampos();
 
         //Botón para volver a login
-        tvCuentaActiva.setOnClickListener(new View.OnClickListener() {
+        tvAlreadyCuenta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Registro.this, Login.class);
@@ -78,7 +78,7 @@ public class Registro extends AppCompatActivity {
         });
 
         //Boton para realizar el proceso de registro con los datos recogidos.
-        btRegistro.setOnClickListener(new View.OnClickListener() {
+        btRegistroRegistro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //Iniciamos los parametros de la barra de carga y la mostramos
@@ -88,9 +88,9 @@ public class Registro extends AppCompatActivity {
                 barraCarga.show();
 
                 //Obtenemos los datos de los campos correspondientes
-                String mail = etEmail.getText().toString();
-                String nombre = etNombre.getText().toString();
-                String pass = etPass.getText().toString();
+                String mail = etEmailRegistro.getText().toString();
+                String apodo = etApodo.getText().toString();
+                String pass = etPassRegistro.getText().toString();
                 String pass2 = etPass2.getText().toString();
 
                 //Comprobamos que la contraseña se ha escrito correctamente
@@ -98,7 +98,7 @@ public class Registro extends AppCompatActivity {
                     //Comprobamos que todos los campos estan validados y si es asi procedemos a crear el usuario.
                     if(awesomeValidation.validate()) {
                         //Si las validaciones son correctas se crea el usuario y se almacena en BD
-                        crearUsuario(mail , pass, nombre);
+                        crearUsuario(mail , pass, apodo);
                     }else{
                         //Error en las validaciones
                         System.out.println("Error3");

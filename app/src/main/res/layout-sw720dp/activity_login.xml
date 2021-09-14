@@ -9,14 +9,14 @@
     tools:ignore="MissingDefaultResource">
 
     <LinearLayout
-        android:id="@+id/llFondoImagen"
+        android:id="@+id/llFondoImagenLogin"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/fondo_fade"
         android:orientation="vertical">
 
         <LinearLayout
-            android:id="@+id/llFondoNegro"
+            android:id="@+id/llFondoNegroLogin"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:alpha="0.3"
@@ -46,7 +46,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/llItems"
+        android:id="@+id/llItemsLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
@@ -59,10 +59,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.5">
+        app:layout_constraintVertical_bias="0.4">
 
         <EditText
-            android:id="@+id/etEmail"
+            android:id="@+id/etEmailLogin"
             android:layout_width="@dimen/anchoInputLogin"
             android:layout_height="@dimen/altoInputLogin"
             android:layout_marginBottom="25dp"
@@ -74,7 +74,7 @@
             android:textSize="@dimen/textInputLogin" />
 
         <EditText
-            android:id="@+id/etPass"
+            android:id="@+id/etPassLogin"
             android:layout_width="@dimen/anchoInputLogin"
             android:layout_height="@dimen/altoInputLogin"
             android:layout_marginBottom="130dp"
@@ -96,7 +96,7 @@
             android:textSize="@dimen/textBotonLogin" />
 
         <Button
-            android:id="@+id/btRegistro"
+            android:id="@+id/btRegistroLogin"
             android:layout_width="@dimen/anchoBotonLogin"
             android:layout_height="@dimen/altoBotonLogin"
             android:layout_marginBottom="100dp"
@@ -117,7 +117,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/llLogoLogin"
+        android:id="@+id/llLogoLogin2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -126,10 +126,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.97"
-        app:layout_constraintHorizontal_bias="0.06">
+        app:layout_constraintHorizontal_bias="0.02">
 
         <ImageView
-            android:id="@+id/ivLogoLogin"
+            android:id="@+id/ivLogoLogin2"
             android:layout_width="@dimen/anchoIconPrincipalLoginXS"
             android:layout_height="@dimen/altoIconPrincipalLoginXS"
             android:layout_gravity="center"
