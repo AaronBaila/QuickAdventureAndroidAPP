@@ -10,14 +10,14 @@
     tools:ignore="MissingDefaultResource">
 
     <LinearLayout
-        android:id="@+id/linearLayout"
+        android:id="@+id/llBarraMenuInicio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/primario"
         android:gravity="center"
         android:orientation="horizontal"
-        android:paddingTop="15dp"
-        android:paddingBottom="15dp"
+        android:paddingTop="23dp"
+        android:paddingBottom="23dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,29 +25,34 @@
         app:layout_constraintVertical_bias="0.0">
 
         <LinearLayout
+            android:id="@+id/llBarraMenuIconosInicio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <ImageView
+                android:id="@+id/btImagenAjustes"
                 android:layout_width="@dimen/anchoIconoInicio"
                 android:layout_height="@dimen/altoIconoInicio"
                 android:layout_marginRight="30dp"
                 android:src="@drawable/ic_iconconfig" />
 
             <ImageView
+                android:id="@+id/btImagenMapa"
                 android:layout_width="@dimen/anchoIconoInicio"
                 android:layout_height="@dimen/altoIconoInicio"
                 android:layout_marginRight="30dp"
                 android:src="@drawable/ic_iconmapa" />
 
             <ImageView
+                android:id="@+id/btImagenPerfilInicio"
                 android:layout_width="@dimen/anchoIconoInicio"
                 android:layout_height="@dimen/altoIconoInicio"
                 android:layout_marginRight="30dp"
                 android:src="@drawable/ic_iconmapa" />
 
             <ImageView
+                android:id="@+id/btImagenSalirInicio"
                 android:layout_width="@dimen/anchoIconoInicio"
                 android:layout_height="@dimen/altoIconoInicio"
                 android:src="@drawable/ic_iconsalir" />
@@ -67,7 +72,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.2"/>
+        app:layout_constraintVertical_bias="0.22"/>
 
     <FrameLayout
         android:id="@+id/frameLayout"
