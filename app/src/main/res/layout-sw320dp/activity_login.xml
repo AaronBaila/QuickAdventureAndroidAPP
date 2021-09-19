@@ -63,7 +63,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.29">
+        app:layout_constraintVertical_bias="0.28">
 
         <EditText
             android:id="@+id/etEmailLogin"
@@ -81,7 +81,7 @@
             android:id="@+id/etPassLogin"
             android:layout_width="@dimen/anchoInputLogin"
             android:layout_height="@dimen/altoInputLogin"
-            android:layout_marginBottom="80dp"
+            android:layout_marginBottom="95dp"
             android:background="@drawable/input"
             android:hint="Contraseña"
             android:inputType="textPassword"
@@ -103,7 +103,7 @@
             android:id="@+id/btRegistroLogin"
             android:layout_width="@dimen/anchoBotonLogin"
             android:layout_height="@dimen/altoBotonLogin"
-            android:layout_marginBottom="70dp"
+            android:layout_marginBottom="30dp"
             android:background="@drawable/btn_redondeado_amarillo"
             android:elevation="@dimen/elevationBotonLogin"
             android:text="Registrate"

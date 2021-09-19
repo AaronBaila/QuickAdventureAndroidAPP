@@ -67,5 +67,18 @@
     <dimen name="anchoIconPrincipalRegistroXL">490dp</dimen>
     <dimen name="altoIconPrincipalRegistroXL">490dp</dimen>
 
+    <!--  ****************************************************************************************************************** -->
+
+    <!--  ***************   Dimensiones Inicio  *************** -->
+
+    <!-- Dimensiones Iconos -->
+
+    <dimen name="anchoIconoInicio">55dp</dimen>
+    <dimen name="altoIconoInicio">55dp</dimen>
+
+    <!-- Dimensiones IconoPerfil -->
+
+    <dimen name="anchoIconoPerfilInicio">145dp</dimen>
+    <dimen name="altoIconoPerfilInicio">145dp</dimen>
 
 </resources>

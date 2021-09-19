@@ -12,20 +12,20 @@
 
     <!-- Dimensiones LayoutTextosBotones -->
 
-    <dimen name="textInputLogin">14sp</dimen>
+    <dimen name="textInputLogin">16sp</dimen>
     <dimen name="anchoInputLogin">300dp</dimen>
-    <dimen name="altoInputLogin">46dp</dimen>
+    <dimen name="altoInputLogin">54dp</dimen>
 
     <!-- Dimensiones Botones -->
 
-    <dimen name="textBotonLogin">13sp</dimen>
+    <dimen name="textBotonLogin">15sp</dimen>
     <dimen name="anchoBotonLogin">300dp</dimen>
-    <dimen name="altoBotonLogin">43dp</dimen>
+    <dimen name="altoBotonLogin">56dp</dimen>
     <dimen name="elevationBotonLogin">45dp</dimen>
 
     <!-- Dimensiones Botones De Texto-->
 
-    <dimen name="textSizeLogin">16sp</dimen>
+    <dimen name="textSizeLogin">18sp</dimen>
 
     <!-- Dimensiones Texto Error -->
 
@@ -47,28 +47,41 @@
 
     <!-- Dimensiones LayoutTextosBotones -->
 
-    <dimen name="textInputRegistro">14sp</dimen>
+    <dimen name="textInputRegistro">16sp</dimen>
     <dimen name="anchoInputRegistro">300dp</dimen>
-    <dimen name="altoInputRegistro">46dp</dimen>
+    <dimen name="altoInputRegistro">54dp</dimen>
 
     <!-- Dimensiones Botones -->
 
-    <dimen name="textBotonRegistro">13sp</dimen>
+    <dimen name="textBotonRegistro">15sp</dimen>
     <dimen name="anchoBotonRegistro">300dp</dimen>
-    <dimen name="altoBotonRegistro">52dp</dimen>
+    <dimen name="altoBotonRegistro">56dp</dimen>
     <dimen name="elevationBotonRegistro">45dp</dimen>
 
     <!-- Dimensiones Botones De Texto-->
 
-    <dimen name="textSizeRegistro">16sp</dimen>
+    <dimen name="textSizeRegistro">18sp</dimen>
 
     <!-- Dimensiones Icono -->
 
-    <dimen name="anchoIconPrincipalRegistroXS">76dp</dimen>
-    <dimen name="altoIconPrincipalRegistroXS">76dp</dimen>
+    <dimen name="anchoIconPrincipalRegistroXS">70dp</dimen>
+    <dimen name="altoIconPrincipalRegistroXS">70dp</dimen>
 
     <dimen name="anchoIconPrincipalRegistroXL">280dp</dimen>
     <dimen name="altoIconPrincipalRegistroXL">280dp</dimen>
 
+    <!--  ****************************************************************************************************************** -->
+
+    <!--  ***************   Dimensiones Inicio  *************** -->
+
+    <!-- Dimensiones Iconos -->
+
+    <dimen name="anchoIconoInicio">55dp</dimen>
+    <dimen name="altoIconoInicio">55dp</dimen>
+
+    <!-- Dimensiones IconoPerfil -->
+
+    <dimen name="anchoIconoPerfilInicio">145dp</dimen>
+    <dimen name="altoIconoPerfilInicio">145dp</dimen>
 
 </resources>

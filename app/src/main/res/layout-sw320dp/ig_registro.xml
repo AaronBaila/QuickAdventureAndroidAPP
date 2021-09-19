@@ -63,7 +63,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.27">
+        app:layout_constraintVertical_bias="0.25">
 
         <EditText
             android:id="@+id/etApodo"
@@ -119,7 +119,6 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:layout_marginBottom="20dp"
-            android:paddingRight="5dp"
             android:text=" "
             android:textColor="@color/red"
             android:textSize="@dimen/textSizeError" />
@@ -139,7 +138,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="end"
-            android:paddingRight="5dp"
+            android:paddingRight="10dp"
             android:text="¿Ya tienes cuenta ? Click Aquí !"
             android:textColor="@color/white"
             android:textSize="@dimen/textSizeLogin" />
@@ -152,15 +151,15 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintHorizontal_bias="0.03"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.98">
+        app:layout_constraintVertical_bias="0.99">
 
         <ImageView
             android:id="@+id/ivLogoRegistro2"
-            android:layout_width="@dimen/anchoIconPrincipalLoginXS"
-            android:layout_height="@dimen/altoIconPrincipalLoginXS"
+            android:layout_width="@dimen/anchoIconPrincipalRegistroXS"
+            android:layout_height="@dimen/altoIconPrincipalRegistroXS"
             android:layout_gravity="center"
             android:alpha="0.8"
             android:src="@drawable/iconprincipal"
