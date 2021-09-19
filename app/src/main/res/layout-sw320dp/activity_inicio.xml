@@ -6,8 +6,48 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Login"
-    android:background="@drawable/fondo_fade"
     tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:id="@+id/llFondoImagenInicio"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/fondo_fade"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/llFondoNegroInicio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.3"
+            android:background="@color/black"
+            android:orientation="vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llLogoInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.54">
+
+        <ImageView
+            android:id="@+id/ivLogoInicio1"
+            android:layout_width="@dimen/anchoIconPrincipalLoginXL"
+            android:layout_height="@dimen/altoIconPrincipalLoginXL"
+            android:layout_gravity="center"
+            android:alpha="0.055"
+            android:src="@drawable/iconprincipal"
+            android:transitionName="logoImageTrans" />
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/llBarraMenuInicio"
@@ -75,7 +115,7 @@
         app:layout_constraintVertical_bias="0.22"/>
 
     <FrameLayout
-        android:id="@+id/frameLayout"
+        android:id="@+id/framePlanesInicio"
         android:layout_width="match_parent"
         android:layout_height="215dp"
         android:layout_margin="10dp"
@@ -86,7 +126,7 @@
         app:layout_constraintVertical_bias="0.45">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recyclerView"
+            android:id="@+id/rvPlanesInicio"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:padding="30dp"
@@ -97,7 +137,7 @@
     </FrameLayout>
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/profile_image"
+        android:id="@+id/imgPefilInicio"
         android:layout_width="@dimen/anchoIconoPerfilInicio"
         android:layout_height="@dimen/altoIconoPerfilInicio"
         android:src="@drawable/iconprueba"
