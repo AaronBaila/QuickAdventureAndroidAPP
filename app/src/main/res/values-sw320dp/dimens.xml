@@ -76,12 +76,12 @@
 
     <!-- Dimensiones Iconos -->
 
-    <dimen name="anchoIconoInicio">55dp</dimen>
-    <dimen name="altoIconoInicio">55dp</dimen>
+    <dimen name="anchoIconoInicio">50dp</dimen>
+    <dimen name="altoIconoInicio">50dp</dimen>
 
     <!-- Dimensiones IconoPerfil -->
 
-    <dimen name="anchoIconoPerfilInicio">145dp</dimen>
-    <dimen name="altoIconoPerfilInicio">145dp</dimen>
+    <dimen name="anchoIconoPerfilInicio">90dp</dimen>
+    <dimen name="altoIconoPerfilInicio">90dp</dimen>
 
 </resources>

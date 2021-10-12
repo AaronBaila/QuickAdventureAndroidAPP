@@ -173,7 +173,7 @@ public class Inicio extends AppCompatActivity{
                 System.out.println(listaPlanes.get(0).getDireccion1()); */
             }
             System.out.println("**** TERMINA VALUEEL2 ***");
-            //adapter.notifyDataSetChanged();
+            adapter.notifyDataSetChanged();
         }
 
         @Override
