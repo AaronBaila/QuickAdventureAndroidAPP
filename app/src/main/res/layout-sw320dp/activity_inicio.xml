@@ -118,22 +118,36 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.22"/>
 
+    <TextView
+        android:id="@+id/tvTituloInicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Mis Planes"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textSizeLogin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15"/>
+
     <FrameLayout
         android:id="@+id/framePlanesInicio"
         android:layout_width="match_parent"
-        android:layout_height="650dp"
+        android:layout_height="470dp"
         android:layout_marginBottom="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.6">
+        app:layout_constraintVertical_bias="1.03">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rvPlanesInicio"
             android:layout_width="match_parent"
-            android:paddingLeft="22dp"
-            android:paddingRight="22dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
             android:paddingTop="0dp"
             android:paddingBottom="0dp"
             android:layout_height="match_parent"
