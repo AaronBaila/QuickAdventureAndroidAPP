@@ -6,11 +6,16 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -40,6 +45,10 @@ public class Inicio extends AppCompatActivity{
     PlanObjAdapter adapter;
     List<PlanObj> listaPlanes;
 
+    ProgressDialog tempDialog;
+    CountDownTimer contador;
+    int i = 0;
+
     int nPlanesBD;
 
     String idUser;
@@ -49,12 +58,22 @@ public class Inicio extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inicio);
 
+        System.out.println("onCreate");
+
         btImagenAjustes = findViewById(R.id.btImagenAjustes);
         btImagenMapa = findViewById(R.id.btImagenMapa);
         btImagenPerfilInicio = findViewById(R.id.btImagenPerfilInicio);
         btImagenSalirInicio = findViewById(R.id.btImagenSalirInicio);
 
         tvNoHay = findViewById(R.id.tvNoHay);
+
+        tempDialog = new ProgressDialog(Inicio.this);
+        tempDialog.setMessage("Cargando perfil...");
+        tempDialog.setCancelable(false);
+        tempDialog.setProgress(i);
+        tempDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+        tempDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.GRAY));
+
 
         listaPlanes = new ArrayList<>();
         rvPlanesInicio = (RecyclerView) findViewById(R.id.rvPlanesInicio);
@@ -71,9 +90,21 @@ public class Inicio extends AppCompatActivity{
         mDatabase = FirebaseDatabase.getInstance().getReference("Usuarios").child(idUser);
         mDatabase.addListenerForSingleValueEvent(valueEventListener);
 
-        System.out.println("nPlanesBD2: " + nPlanesBD);
+        System.out.println("Antes de ValueEventListener Y tempDialog");
 
-        mostrarPlanes(nPlanesBD);
+        tempDialog.show();
+        contador = new CountDownTimer(5000, 1000){
+            public void onTick(long millisUntilFinished){
+                tempDialog.setMessage("Cargando perfil...");
+            }
+
+            public void onFinish(){
+                System.out.println("Numero Planes: " + nPlanesBD);
+                mostrarPlanes(nPlanesBD);
+                tempDialog.dismiss();
+            }
+        }.start();
+
 
         btImagenAjustes.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -90,23 +121,23 @@ public class Inicio extends AppCompatActivity{
             }
         });
 
-            btImagenPerfilInicio.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    //AUN NO IMPLEMENTADO
-                }
-            });
+        btImagenPerfilInicio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //AUN NO IMPLEMENTADO
+            }
+        });
 
-            btImagenSalirInicio.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    firebaseAuth.getInstance().signOut();
-                    Toast toast = Toast.makeText(getApplicationContext(), "Sesión cerrada", Toast.LENGTH_SHORT);
-                    Intent i = new Intent(Inicio.this, Login.class);
-                    startActivity(i);
-                }
-            });
-        }
+        btImagenSalirInicio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                firebaseAuth.getInstance().signOut();
+                Toast toast = Toast.makeText(getApplicationContext(), "Sesión cerrada", Toast.LENGTH_SHORT);
+                Intent i = new Intent(Inicio.this, Login.class);
+                startActivity(i);
+            }
+        });
+    }
 
     private void mostrarPlanes(int nPlanesBD) {
         System.out.println("*** Dentro de Mostrar Planes");
@@ -121,13 +152,11 @@ public class Inicio extends AppCompatActivity{
         }
     }
 
-
     ValueEventListener valueEventListener2 = new ValueEventListener() {
         @Override
         public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
 
             List<String> valores = new ArrayList<>();
-
             if (dataSnapshot.exists()) {
                 for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
                     String valoresAux = snapshot.getValue(String.class);
@@ -137,13 +166,14 @@ public class Inicio extends AppCompatActivity{
                 listaPlanes.add(new PlanObj(valores.get(0), valores.get(1), valores.get(2), valores.get(3), valores.get(4), valores.get(5), valores.get(6), valores.get(7), valores.get(8), valores.get(9)));
                 valores.clear();
 
-                /*for(int i = 0; i<10; i++){
+                /* for(int i = 0; i<10; i++){
                     System.out.println(valores.get(i));
-                }*/
-                /*listaPlanes.add(new PlanObj(valores.get(0), valores.get(1), valores.get(2), valores.get(3), valores.get(4), valores.get(5), valores.get(6), valores.get(7), valores.get(8), valores.get(9)));
-                System.out.println(listaPlanes.get(0).getDireccion1());*/
+                }
+                listaPlanes.add(new PlanObj(valores.get(0), valores.get(1), valores.get(2), valores.get(3), valores.get(4), valores.get(5), valores.get(6), valores.get(7), valores.get(8), valores.get(9)));
+                System.out.println(listaPlanes.get(0).getDireccion1()); */
             }
-            adapter.notifyDataSetChanged();
+            System.out.println("**** TERMINA VALUEEL2 ***");
+            //adapter.notifyDataSetChanged();
         }
 
         @Override
@@ -163,7 +193,7 @@ public class Inicio extends AppCompatActivity{
                     valores.add(valor);
                 }
                 nPlanesBD = Integer.parseInt((String) valores.get(3));
-                System.out.println("nPlanesBD1: " + nPlanesBD);
+                System.out.println("**** TERMINA VALUEE1 *** nPlanesBD1: " + nPlanesBD);
             }
         }
 
