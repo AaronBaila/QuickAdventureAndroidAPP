@@ -3,6 +3,6 @@ QuickAdventure es una aplicación desarrollada en AndroidStudio mediante Java na
 
 Ideal para ser turista.
 
-# Estado
+# Estado:
 Es una aplicación la cual empecé como aprendizaje cuando estudiaba mi grado superior y la cual no he seguido. 
 Espero poder retomarla de nuevo con más conocimientos y tiempo para ello.
